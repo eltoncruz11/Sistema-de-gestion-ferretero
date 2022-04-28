@@ -1,0 +1,117 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "Enlace_A_Datos/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Enlace_A_Datos.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Enlace_A_Datos.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      },
+      "Intermedio/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Enlace_A_Datos": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Intermedio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Intermedio.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WindowsForms"
+        ]
+      }
+    }
+  },
+  "libraries": {
+    "Enlace_A_Datos/1.0.0": {
+      "type": "project",
+      "path": "../Enlace_A_Datos/Enlace_A_Datos.csproj",
+      "msbuildProject": "../Enlace_A_Datos/Enlace_A_Datos.csproj"
+    },
+    "Intermedio/1.0.0": {
+      "type": "project",
+      "path": "../Intermedio/Intermedio.csproj",
+      "msbuildProject": "../Intermedio/Intermedio.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "Intermedio >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\elton\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\elton\\OneDrive\\Documentos\\Repositorio Local\\Sistema de gestion ferretero (sgf)\\Presentacion\\Presentacion.csproj",
+      "projectName": "Presentacion",
+      "projectPath": "C:\\Users\\elton\\OneDrive\\Documentos\\Repositorio Local\\Sistema de gestion ferretero (sgf)\\Presentacion\\Presentacion.csproj",
+      "packagesPath": "C:\\Users\\elton\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\elton\\OneDrive\\Documentos\\Repositorio Local\\Sistema de gestion ferretero (sgf)\\Presentacion\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\elton\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {
+            "C:\\Users\\elton\\OneDrive\\Documentos\\Repositorio Local\\Sistema de gestion ferretero (sgf)\\Intermedio\\Intermedio.csproj": {
+              "projectPath": "C:\\Users\\elton\\OneDrive\\Documentos\\Repositorio Local\\Sistema de gestion ferretero (sgf)\\Intermedio\\Intermedio.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
