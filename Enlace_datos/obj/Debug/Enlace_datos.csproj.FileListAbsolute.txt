@@ -1,0 +1,6 @@
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Enlace_datos.dll
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Enlace_datos.pdb
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\obj\Debug\Enlace_datos.csproj.AssemblyReference.cache
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\obj\Debug\Enlace_datos.csproj.CoreCompileInputs.cache
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\obj\Debug\Enlace_datos.dll
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\obj\Debug\Enlace_datos.pdb

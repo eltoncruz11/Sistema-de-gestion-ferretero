@@ -1,0 +1,13 @@
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Presentacion\bin\Debug\Presentacion.exe.config
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Presentacion\bin\Debug\Presentacion.exe
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Presentacion\bin\Debug\Presentacion.pdb
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Presentacion\bin\Debug\Intermedio.dll
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Presentacion\bin\Debug\Intermedio.pdb
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Presentacion\obj\Debug\Presentacion.csproj.AssemblyReference.cache
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Presentacion\obj\Debug\Presentacion.csproj.SuggestedBindingRedirects.cache
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Presentacion\obj\Debug\Presentacion.Properties.Resources.resources
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Presentacion\obj\Debug\Presentacion.csproj.GenerateResource.cache
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Presentacion\obj\Debug\Presentacion.csproj.CoreCompileInputs.cache
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Presentacion\obj\Debug\Presentacion.csproj.CopyComplete
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Presentacion\obj\Debug\Presentacion.exe
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Presentacion\obj\Debug\Presentacion.pdb
