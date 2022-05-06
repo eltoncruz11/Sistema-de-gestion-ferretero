@@ -21,7 +21,22 @@ namespace Presentacion
 
         private void Login_Load(object sender, EventArgs e)
         {
-           
+            
+        }
+
+        private void bunifuPanel1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuIconButton1_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void bunifuButton21_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
