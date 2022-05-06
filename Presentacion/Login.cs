@@ -17,14 +17,11 @@ namespace Presentacion
             InitializeComponent();
         }
 
-        private void bunifuButton2_Click(object sender, EventArgs e)
-        {
-
-        }
+ 
 
         private void Login_Load(object sender, EventArgs e)
         {
-
+           
         }
     }
 }

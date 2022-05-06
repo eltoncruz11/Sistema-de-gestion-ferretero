@@ -35,7 +35,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Presentacion.Properties.Resources.RR;
-            this.pictureBox1.Location = new System.Drawing.Point(-5, -16);
+            this.pictureBox1.Location = new System.Drawing.Point(12, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(666, 407);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
@@ -46,7 +46,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(656, 371);
+            this.ClientSize = new System.Drawing.Size(691, 435);
             this.Controls.Add(this.pictureBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";

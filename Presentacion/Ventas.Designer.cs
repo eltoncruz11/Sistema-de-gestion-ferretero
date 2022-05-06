@@ -29,21 +29,39 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Ventas));
-            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges4 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges5 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges6 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges1 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges2 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges3 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
             this.bunifuPictureBox3 = new Bunifu.UI.WinForms.BunifuPictureBox();
             this.bunifuPictureBox1 = new Bunifu.UI.WinForms.BunifuPictureBox();
             this.bunifuIconButton3 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton();
             this.bunifuIconButton2 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton();
             this.bunifuIconButton1 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.guna2GradientButton1 = new Guna.UI2.WinForms.Guna2GradientButton();
-            this.guna2GradientButton2 = new Guna.UI2.WinForms.Guna2GradientButton();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuPictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bunifuPictureBox1)).BeginInit();
             this.SuspendLayout();
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("KG Primary Italics", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(571, 12);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(188, 36);
+            this.label1.TabIndex = 14;
+            this.label1.Text = "Rey de Reyes";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("KG Primary Italics", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(58, 14);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(106, 25);
+            this.label2.TabIndex = 15;
+            this.label2.Text = "Username";
             // 
             // bunifuPictureBox3
             // 
@@ -92,11 +110,11 @@
             this.bunifuIconButton3.ColorContrastOnClick = 30;
             this.bunifuIconButton3.ColorContrastOnHover = 30;
             this.bunifuIconButton3.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges4.BottomLeft = true;
-            borderEdges4.BottomRight = true;
-            borderEdges4.TopLeft = true;
-            borderEdges4.TopRight = true;
-            this.bunifuIconButton3.CustomizableEdges = borderEdges4;
+            borderEdges1.BottomLeft = true;
+            borderEdges1.BottomRight = true;
+            borderEdges1.TopLeft = true;
+            borderEdges1.TopRight = true;
+            this.bunifuIconButton3.CustomizableEdges = borderEdges1;
             this.bunifuIconButton3.DialogResult = System.Windows.Forms.DialogResult.None;
             this.bunifuIconButton3.Image = global::Presentacion.Properties.Resources.icons8_expand_collapse_arrows_643;
             this.bunifuIconButton3.ImageMargin = new System.Windows.Forms.Padding(0);
@@ -123,11 +141,11 @@
             this.bunifuIconButton2.ColorContrastOnClick = 30;
             this.bunifuIconButton2.ColorContrastOnHover = 30;
             this.bunifuIconButton2.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges5.BottomLeft = true;
-            borderEdges5.BottomRight = true;
-            borderEdges5.TopLeft = true;
-            borderEdges5.TopRight = true;
-            this.bunifuIconButton2.CustomizableEdges = borderEdges5;
+            borderEdges2.BottomLeft = true;
+            borderEdges2.BottomRight = true;
+            borderEdges2.TopLeft = true;
+            borderEdges2.TopRight = true;
+            this.bunifuIconButton2.CustomizableEdges = borderEdges2;
             this.bunifuIconButton2.DialogResult = System.Windows.Forms.DialogResult.None;
             this.bunifuIconButton2.Image = global::Presentacion.Properties.Resources.icons8_menos_96;
             this.bunifuIconButton2.ImageMargin = new System.Windows.Forms.Padding(0);
@@ -154,11 +172,11 @@
             this.bunifuIconButton1.ColorContrastOnClick = 30;
             this.bunifuIconButton1.ColorContrastOnHover = 30;
             this.bunifuIconButton1.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges6.BottomLeft = true;
-            borderEdges6.BottomRight = true;
-            borderEdges6.TopLeft = true;
-            borderEdges6.TopRight = true;
-            this.bunifuIconButton1.CustomizableEdges = borderEdges6;
+            borderEdges3.BottomLeft = true;
+            borderEdges3.BottomRight = true;
+            borderEdges3.TopLeft = true;
+            borderEdges3.TopRight = true;
+            this.bunifuIconButton1.CustomizableEdges = borderEdges3;
             this.bunifuIconButton1.DialogResult = System.Windows.Forms.DialogResult.None;
             this.bunifuIconButton1.Image = ((System.Drawing.Image)(resources.GetObject("bunifuIconButton1.Image")));
             this.bunifuIconButton1.ImageMargin = new System.Windows.Forms.Padding(0);
@@ -170,61 +188,11 @@
             this.bunifuIconButton1.Style = Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.ButtonStyles.Round;
             this.bunifuIconButton1.TabIndex = 12;
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("KG Primary Italics", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(571, 12);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(188, 36);
-            this.label1.TabIndex = 14;
-            this.label1.Text = "Rey de Reyes";
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("KG Primary Italics", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(58, 14);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(106, 25);
-            this.label2.TabIndex = 15;
-            this.label2.Text = "Username";
-            // 
-            // guna2GradientButton1
-            // 
-            this.guna2GradientButton1.CheckedState.Parent = this.guna2GradientButton1;
-            this.guna2GradientButton1.CustomImages.Parent = this.guna2GradientButton1;
-            this.guna2GradientButton1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2GradientButton1.ForeColor = System.Drawing.Color.White;
-            this.guna2GradientButton1.HoverState.Parent = this.guna2GradientButton1;
-            this.guna2GradientButton1.Location = new System.Drawing.Point(199, 286);
-            this.guna2GradientButton1.Name = "guna2GradientButton1";
-            this.guna2GradientButton1.ShadowDecoration.Parent = this.guna2GradientButton1;
-            this.guna2GradientButton1.Size = new System.Drawing.Size(180, 45);
-            this.guna2GradientButton1.TabIndex = 0;
-            this.guna2GradientButton1.Text = "guna2GradientButton1";
-            // 
-            // guna2GradientButton2
-            // 
-            this.guna2GradientButton2.CheckedState.Parent = this.guna2GradientButton2;
-            this.guna2GradientButton2.CustomImages.Parent = this.guna2GradientButton2;
-            this.guna2GradientButton2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.guna2GradientButton2.ForeColor = System.Drawing.Color.White;
-            this.guna2GradientButton2.HoverState.Parent = this.guna2GradientButton2;
-            this.guna2GradientButton2.Location = new System.Drawing.Point(198, 187);
-            this.guna2GradientButton2.Name = "guna2GradientButton2";
-            this.guna2GradientButton2.ShadowDecoration.Parent = this.guna2GradientButton2;
-            this.guna2GradientButton2.Size = new System.Drawing.Size(180, 45);
-            this.guna2GradientButton2.TabIndex = 1;
-            this.guna2GradientButton2.Text = "boton";
-            // 
             // Ventas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1316, 788);
-            this.Controls.Add(this.guna2GradientButton2);
-            this.Controls.Add(this.guna2GradientButton1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Ventas";
             this.Text = "Ventas";
@@ -244,7 +212,5 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton1;
-        private Guna.UI2.WinForms.Guna2GradientButton guna2GradientButton2;
     }
 }
