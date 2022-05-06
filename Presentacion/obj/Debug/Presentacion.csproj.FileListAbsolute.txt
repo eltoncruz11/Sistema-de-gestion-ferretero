@@ -255,3 +255,4 @@ D:\Documentos\GitHub\Sistema-de-gestion-ferretero\Presentacion\obj\Debug\Present
 D:\Documentos\GitHub\Sistema-de-gestion-ferretero\Presentacion\obj\Debug\Presentacion.csproj.CopyComplete
 D:\Documentos\GitHub\Sistema-de-gestion-ferretero\Presentacion\obj\Debug\Presentacion.exe
 D:\Documentos\GitHub\Sistema-de-gestion-ferretero\Presentacion\obj\Debug\Presentacion.pdb
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Presentacion\obj\Debug\Presentacion.Contenedor.resources
