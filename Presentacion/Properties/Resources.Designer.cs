@@ -63,6 +63,26 @@ namespace Presentacion.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_bmw_48 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-bmw-48", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_categorizar_48 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-categorizar-48", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_expand_collapse_arrows_643 {
             get {
                 object obj = ResourceManager.GetObject("icons8-expand-collapse-arrows-643", resourceCulture);
@@ -106,6 +126,36 @@ namespace Presentacion.Properties {
         internal static System.Drawing.Bitmap icons8_producto_64 {
             get {
                 object obj = ResourceManager.GetObject("icons8-producto-64", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_producto_64__1_ {
+            get {
+                object obj = ResourceManager.GetObject("icons8-producto-64 (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_producto_64__2_ {
+            get {
+                object obj = ResourceManager.GetObject("icons8-producto-64 (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_producto_64__3_ {
+            get {
+                object obj = ResourceManager.GetObject("icons8-producto-64 (3)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
