@@ -73,6 +73,16 @@ namespace Presentacion.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_carrito_de_la_compra_cargado_30 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-carrito-de-la-compra-cargado-30", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_categorizar_48 {
             get {
                 object obj = ResourceManager.GetObject("icons8-categorizar-48", resourceCulture);
