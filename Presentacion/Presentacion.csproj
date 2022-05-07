@@ -298,5 +298,20 @@
   <ItemGroup>
     <None Include="Resources\icons8-producto-64 %283%29.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icono 1 L.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icono 1 L1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icono 1 L2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icono 1 L3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icono 1 L4.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
