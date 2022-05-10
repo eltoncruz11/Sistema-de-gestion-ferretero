@@ -283,6 +283,6 @@
 </value>
   </data>
   <data name="bunifuLabel1.BaseStylesheet" xml:space="preserve">
-    <value>#bunifu-label { padding: 0px; font-family: 'Lucida Bright'; font-size: 11.25pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(17, 8, 53); text-align: left; }</value>
+    <value>#bunifu-label { padding: 0px; font-family: 'Lucida Bright'; font-size: 11.25pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(0, 255, 255); text-align: left; }</value>
   </data>
 </root>

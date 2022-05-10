@@ -142,14 +142,17 @@
   <data name="icons8-billete-de-descuento-64" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-billete-de-descuento-64.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="icons8-expand-collapse-arrows-643" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-expand-collapse-arrows-643.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Icono 1 L2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Icono 1 L2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="escritura" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\escritura.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8-producto-481" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-producto-481.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="information_icon-icons.com_52388" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\information_icon-icons.com_52388.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="anadir1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\anadir1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -163,14 +166,14 @@
   <data name="icons8-multiedición-64 (1)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-multiedición-64 (1).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="entrega-de-pedidos" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\entrega-de-pedidos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Icono 1 L4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Icono 1 L4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="icons8-producto-64 (3)" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\icons8-producto-64 (3).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="icons8-carrito-de-la-compra-cargado-30" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\icons8-carrito-de-la-compra-cargado-30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="boton-agregar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\boton-agregar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -217,16 +220,16 @@
   <data name="informacion" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\informacion.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Icono 1 L2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Icono 1 L2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icons8-expand-collapse-arrows-643" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-expand-collapse-arrows-643.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Icono 1 L" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Icono 1 L.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="entrega-de-pedidos" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\entrega-de-pedidos.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icons8-carrito-de-la-compra-cargado-30" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-carrito-de-la-compra-cargado-30.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="information_icon-icons.com_52388" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\information_icon-icons.com_52388.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="icons8-deuda-48" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icons8-deuda-48.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

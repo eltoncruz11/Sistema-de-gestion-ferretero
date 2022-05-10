@@ -213,6 +213,9 @@
     <Compile Include="Ventas.Designer.cs">
       <DependentUpon>Ventas.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Cliente.resx">
+      <DependentUpon>Cliente.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Contenedor.resx">
       <DependentUpon>Contenedor.cs</DependentUpon>
     </EmbeddedResource>
@@ -366,6 +369,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\information_icon-icons.com_52388.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-deuda-48.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
