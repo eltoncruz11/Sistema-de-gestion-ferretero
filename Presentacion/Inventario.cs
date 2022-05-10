@@ -21,5 +21,15 @@ namespace Presentacion
         {
 
         }
+
+        private void Inventario_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void bunifuTextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

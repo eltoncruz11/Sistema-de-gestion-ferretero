@@ -313,5 +313,59 @@
   <ItemGroup>
     <None Include="Resources\Icono 1 L4.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\entrega-de-pedidos %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\entrega-de-pedidos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\entrega-cancelada.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boton-agregar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cerrar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anadir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\eliminar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\anadir1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\escritura.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-multiedición-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-multiedición-64 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-multiedición-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-billete-de-descuento-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cupon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\buscar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\informacion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-información-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\information_icon-icons.com_52388.ico" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
