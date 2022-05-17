@@ -157,6 +157,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include=".Designer.cs" />
+    <Compile Include="Agregar_Cliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Agregar_Cliente.Designer.cs">
+      <DependentUpon>Agregar_Cliente.cs</DependentUpon>
+    </Compile>
     <Compile Include="Cliente.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -213,6 +219,9 @@
     <Compile Include="Ventas.Designer.cs">
       <DependentUpon>Ventas.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Agregar_Cliente.resx">
+      <DependentUpon>Agregar_Cliente.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Cliente.resx">
       <DependentUpon>Cliente.cs</DependentUpon>
     </EmbeddedResource>
@@ -239,6 +248,9 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Report.resx">
+      <DependentUpon>Report.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Ventas.resx">
       <DependentUpon>Ventas.cs</DependentUpon>
     </EmbeddedResource>
@@ -372,6 +384,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\icons8-deuda-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\agregar-usuario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-añadir-usuario-masculino-50.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

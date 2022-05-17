@@ -63,6 +63,16 @@ namespace Presentacion.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap agregar_usuario {
+            get {
+                object obj = ResourceManager.GetObject("agregar-usuario", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap anadir {
             get {
                 object obj = ResourceManager.GetObject("anadir", resourceCulture);
@@ -216,6 +226,16 @@ namespace Presentacion.Properties {
         internal static System.Drawing.Bitmap Icono_1_L4 {
             get {
                 object obj = ResourceManager.GetObject("Icono 1 L4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_añadir_usuario_masculino_50 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-añadir-usuario-masculino-50", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
