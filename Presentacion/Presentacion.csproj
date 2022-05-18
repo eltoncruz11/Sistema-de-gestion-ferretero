@@ -181,6 +181,12 @@
     <Compile Include="Contenedor.Designer.cs">
       <DependentUpon>Contenedor.cs</DependentUpon>
     </Compile>
+    <Compile Include="Editar_Client.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editar_Client.Designer.cs">
+      <DependentUpon>Editar_Client.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -227,6 +233,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Contenedor.resx">
       <DependentUpon>Contenedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editar_Client.resx">
+      <DependentUpon>Editar_Client.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -390,6 +399,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\icons8-añadir-usuario-masculino-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-editar-usuario-masculino-24.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
