@@ -263,6 +263,36 @@ namespace Presentacion.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap icons8_cancelar_50 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-cancelar-50", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_cancelar_64 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-cancelar-64", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap icons8_cancelar_suscripción_48 {
+            get {
+                object obj = ResourceManager.GetObject("icons8-cancelar-suscripción-48", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap icons8_carrito_de_la_compra_cargado_30 {
             get {
                 object obj = ResourceManager.GetObject("icons8-carrito-de-la-compra-cargado-30", resourceCulture);
