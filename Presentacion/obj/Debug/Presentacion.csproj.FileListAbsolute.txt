@@ -262,3 +262,4 @@ C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferreter
 C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Presentacion\obj\Debug\Presentacion.Deuda_clientes.resources
 C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Presentacion\obj\Debug\Presentacion.Editar_Client.resources
 C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Presentacion\obj\Debug\Presentacion.Report.resources
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Presentacion\obj\Debug\Presentacion.agregar_producto.resources

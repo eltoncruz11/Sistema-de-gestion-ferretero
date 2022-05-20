@@ -163,6 +163,12 @@
     <Compile Include="Agregar_Cliente.Designer.cs">
       <DependentUpon>Agregar_Cliente.cs</DependentUpon>
     </Compile>
+    <Compile Include="agregar_producto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="agregar_producto.Designer.cs">
+      <DependentUpon>agregar_producto.cs</DependentUpon>
+    </Compile>
     <Compile Include="Cliente.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -192,6 +198,12 @@
     </Compile>
     <Compile Include="Editar_Client.Designer.cs">
       <DependentUpon>Editar_Client.cs</DependentUpon>
+    </Compile>
+    <Compile Include="editar_producto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="editar_producto.Designer.cs">
+      <DependentUpon>editar_producto.cs</DependentUpon>
     </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
@@ -233,6 +245,9 @@
     </Compile>
     <EmbeddedResource Include="Agregar_Cliente.resx">
       <DependentUpon>Agregar_Cliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="agregar_producto.resx">
+      <DependentUpon>agregar_producto.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Cliente.resx">
       <DependentUpon>Cliente.cs</DependentUpon>
@@ -420,6 +435,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\icons8-cancelar-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-paquete-80.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-paquete-80 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-paquete-80 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-producto-100.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

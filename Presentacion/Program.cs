@@ -16,7 +16,7 @@ namespace Presentacion
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Deuda_clientes());
+            Application.Run(new agregar_producto());
         }
     }
 }
