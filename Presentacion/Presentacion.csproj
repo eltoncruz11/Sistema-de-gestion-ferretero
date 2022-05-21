@@ -193,6 +193,12 @@
     <Compile Include="Deuda clientes.Designer.cs">
       <DependentUpon>Deuda clientes.cs</DependentUpon>
     </Compile>
+    <Compile Include="Editar_Agregar_Compra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Editar_Agregar_Compra.Designer.cs">
+      <DependentUpon>Editar_Agregar_Compra.cs</DependentUpon>
+    </Compile>
     <Compile Include="Editar_Agregar_Proveedor.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -258,11 +264,17 @@
     <EmbeddedResource Include="Cliente.resx">
       <DependentUpon>Cliente.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Compras.resx">
+      <DependentUpon>Compras.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Contenedor.resx">
       <DependentUpon>Contenedor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Deuda clientes.resx">
       <DependentUpon>Deuda clientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Editar_Agregar_Compra.resx">
+      <DependentUpon>Editar_Agregar_Compra.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Editar_Agregar_Proveedor.resx">
       <DependentUpon>Editar_Agregar_Proveedor.cs</DependentUpon>
