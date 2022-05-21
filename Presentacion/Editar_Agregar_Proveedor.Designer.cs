@@ -135,7 +135,7 @@
             this.guna2TextBox2.PlaceholderText = "";
             this.guna2TextBox2.SelectedText = "";
             this.guna2TextBox2.ShadowDecoration.Parent = this.guna2TextBox2;
-            this.guna2TextBox2.Size = new System.Drawing.Size(403, 37);
+            this.guna2TextBox2.Size = new System.Drawing.Size(372, 37);
             this.guna2TextBox2.TabIndex = 10;
             // 
             // guna2HtmlLabel3
