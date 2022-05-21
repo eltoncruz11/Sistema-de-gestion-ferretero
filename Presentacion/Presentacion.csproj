@@ -240,7 +240,7 @@
     <Compile Include="Ventas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Ventas.Designer.cs">
+    <Compile Include="Ventas.designer.cs">
       <DependentUpon>Ventas.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="Agregar_Cliente.resx">
