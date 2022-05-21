@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace Presentacion
 {
-    public partial class Ventas : Form
+    public partial class Editar_Agregar_Proveedor : Form
     {
-        public Ventas()
+        public Editar_Agregar_Proveedor()
         {
             InitializeComponent();
-        }
-
-        private void guna2GroupBox4_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2GroupBox3_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }
