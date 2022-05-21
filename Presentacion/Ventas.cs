@@ -17,7 +17,7 @@ namespace Presentacion
             InitializeComponent();
         }
 
-        private void bunifuPanel2_Click(object sender, EventArgs e)
+        private void guna2GroupBox4_Click(object sender, EventArgs e)
         {
 
         }
