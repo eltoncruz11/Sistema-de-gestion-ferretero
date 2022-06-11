@@ -80,6 +80,7 @@
             this.bunifuLabel1.Text = "Datos Generales";
             this.bunifuLabel1.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
             this.bunifuLabel1.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            this.bunifuLabel1.Click += new System.EventHandler(this.bunifuLabel1_Click);
             // 
             // guna2DateTimePicker1
             // 
@@ -102,6 +103,7 @@
             this.guna2DateTimePicker1.Size = new System.Drawing.Size(263, 36);
             this.guna2DateTimePicker1.TabIndex = 26;
             this.guna2DateTimePicker1.Value = new System.DateTime(2022, 5, 19, 20, 42, 42, 890);
+            this.guna2DateTimePicker1.ValueChanged += new System.EventHandler(this.guna2DateTimePicker1_ValueChanged);
             // 
             // bunifuLabel2
             // 
@@ -119,6 +121,7 @@
             this.bunifuLabel2.Text = "Fecha de vencimiento";
             this.bunifuLabel2.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
             this.bunifuLabel2.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            this.bunifuLabel2.Click += new System.EventHandler(this.bunifuLabel2_Click);
             // 
             // guna2ComboBox1
             // 
@@ -144,6 +147,7 @@
             this.guna2ComboBox1.ShadowDecoration.Parent = this.guna2ComboBox1;
             this.guna2ComboBox1.Size = new System.Drawing.Size(212, 36);
             this.guna2ComboBox1.TabIndex = 28;
+            this.guna2ComboBox1.SelectedIndexChanged += new System.EventHandler(this.guna2ComboBox1_SelectedIndexChanged);
             // 
             // bunifuLabel3
             // 
@@ -160,6 +164,7 @@
             this.bunifuLabel3.Text = "Categoria";
             this.bunifuLabel3.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
             this.bunifuLabel3.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            this.bunifuLabel3.Click += new System.EventHandler(this.bunifuLabel3_Click);
             // 
             // guna2Button1
             // 
@@ -176,6 +181,7 @@
             this.guna2Button1.Size = new System.Drawing.Size(168, 57);
             this.guna2Button1.TabIndex = 30;
             this.guna2Button1.Text = "Agregar Producto";
+            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
             // bunifuTextBox4
             // 
@@ -252,6 +258,7 @@
             this.bunifuTextBox4.TextPlaceholder = "Marca";
             this.bunifuTextBox4.UseSystemPasswordChar = false;
             this.bunifuTextBox4.WordWrap = true;
+            this.bunifuTextBox4.TextChanged += new System.EventHandler(this.bunifuTextBox4_TextChanged);
             // 
             // bunifuTextBox3
             // 
@@ -328,6 +335,7 @@
             this.bunifuTextBox3.TextPlaceholder = "Precio";
             this.bunifuTextBox3.UseSystemPasswordChar = false;
             this.bunifuTextBox3.WordWrap = true;
+            this.bunifuTextBox3.TextChanged += new System.EventHandler(this.bunifuTextBox3_TextChanged);
             // 
             // bunifuTextBox2
             // 
@@ -404,6 +412,7 @@
             this.bunifuTextBox2.TextPlaceholder = "Descripcion";
             this.bunifuTextBox2.UseSystemPasswordChar = false;
             this.bunifuTextBox2.WordWrap = true;
+            this.bunifuTextBox2.TextChanged += new System.EventHandler(this.bunifuTextBox2_TextChanged);
             // 
             // bunifuTextBox1
             // 
@@ -480,6 +489,7 @@
             this.bunifuTextBox1.TextPlaceholder = "Nombre";
             this.bunifuTextBox1.UseSystemPasswordChar = false;
             this.bunifuTextBox1.WordWrap = true;
+            this.bunifuTextBox1.TextChanged += new System.EventHandler(this.bunifuTextBox1_TextChanged);
             // 
             // bunifuTextBox5
             // 
@@ -556,6 +566,7 @@
             this.bunifuTextBox5.TextPlaceholder = "Id";
             this.bunifuTextBox5.UseSystemPasswordChar = false;
             this.bunifuTextBox5.WordWrap = true;
+            this.bunifuTextBox5.TextChanged += new System.EventHandler(this.bunifuTextBox5_TextChanged);
             // 
             // bunifuIconButton1
             // 
@@ -587,6 +598,7 @@
             this.bunifuIconButton1.Size = new System.Drawing.Size(35, 35);
             this.bunifuIconButton1.Style = Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.ButtonStyles.Round;
             this.bunifuIconButton1.TabIndex = 20;
+            this.bunifuIconButton1.Click += new System.EventHandler(this.bunifuIconButton1_Click);
             // 
             // agregar_producto
             // 
@@ -609,6 +621,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "agregar_producto";
             this.Text = "agregar_producto";
+            this.Load += new System.EventHandler(this.agregar_producto_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

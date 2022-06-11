@@ -64,6 +64,7 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.dataGridViewImageColumn1 = new System.Windows.Forms.DataGridViewImageColumn();
+            this.guna2CirclePictureBox6 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2Panel1.SuspendLayout();
             this.guna2Panel2.SuspendLayout();
             this.guna2Panel3.SuspendLayout();
@@ -77,6 +78,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox6)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2Panel1
@@ -408,22 +410,23 @@
             this.bunifuPanel1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(177)))), ((int)(((byte)(255)))));
             this.bunifuPanel1.BorderRadius = 20;
             this.bunifuPanel1.BorderThickness = 2;
+            this.bunifuPanel1.Controls.Add(this.guna2CirclePictureBox6);
             this.bunifuPanel1.Controls.Add(this.guna2CirclePictureBox5);
             this.bunifuPanel1.Controls.Add(this.guna2CirclePictureBox4);
             this.bunifuPanel1.Controls.Add(this.guna2CirclePictureBox1);
             this.bunifuPanel1.Controls.Add(this.guna2CirclePictureBox2);
             this.bunifuPanel1.Controls.Add(this.guna2CirclePictureBox3);
-            this.bunifuPanel1.Location = new System.Drawing.Point(1072, 238);
+            this.bunifuPanel1.Location = new System.Drawing.Point(1072, 218);
             this.bunifuPanel1.Name = "bunifuPanel1";
             this.bunifuPanel1.ShowBorders = true;
-            this.bunifuPanel1.Size = new System.Drawing.Size(46, 260);
+            this.bunifuPanel1.Size = new System.Drawing.Size(46, 302);
             this.bunifuPanel1.TabIndex = 6;
             // 
             // guna2CirclePictureBox5
             // 
             this.guna2CirclePictureBox5.BackColor = System.Drawing.Color.Transparent;
             this.guna2CirclePictureBox5.Image = global::Presentacion.Properties.Resources.icons8_información_48;
-            this.guna2CirclePictureBox5.Location = new System.Drawing.Point(1, 208);
+            this.guna2CirclePictureBox5.Location = new System.Drawing.Point(0, 250);
             this.guna2CirclePictureBox5.Name = "guna2CirclePictureBox5";
             this.guna2CirclePictureBox5.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.guna2CirclePictureBox5.ShadowDecoration.Parent = this.guna2CirclePictureBox5;
@@ -523,6 +526,19 @@
             this.dataGridViewImageColumn1.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
             this.dataGridViewImageColumn1.Width = 143;
             // 
+            // guna2CirclePictureBox6
+            // 
+            this.guna2CirclePictureBox6.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CirclePictureBox6.Image = global::Presentacion.Properties.Resources.icons8_información_48;
+            this.guna2CirclePictureBox6.Location = new System.Drawing.Point(3, 208);
+            this.guna2CirclePictureBox6.Name = "guna2CirclePictureBox6";
+            this.guna2CirclePictureBox6.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox6.ShadowDecoration.Parent = this.guna2CirclePictureBox6;
+            this.guna2CirclePictureBox6.Size = new System.Drawing.Size(43, 36);
+            this.guna2CirclePictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2CirclePictureBox6.TabIndex = 13;
+            this.guna2CirclePictureBox6.TabStop = false;
+            // 
             // Inventario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -538,7 +554,7 @@
             this.Controls.Add(this.guna2Panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Inventario";
-            this.Text = "😊😊😂";
+            this.Text = " ";
             this.Load += new System.EventHandler(this.Inventario_Load);
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();
@@ -556,6 +572,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox6)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -589,5 +606,6 @@
         private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox4;
         private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox5;
         private Bunifu.UI.WinForms.BunifuPanel bunifuPanel1;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox6;
     }
 }

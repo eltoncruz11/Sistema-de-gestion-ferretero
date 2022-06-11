@@ -211,7 +211,7 @@ SELECT @me;
 
 -- -- Clientes
 DELIMITER //
-Create procedure Agregar_Clientes (
+Create procedure Agregar_Cliente (
 in id nvarchar(17)
 , in Nom varchar(30)
 , in Apell varchar(30)
@@ -231,6 +231,186 @@ begin
 end //
 DELIMITER ;
 
+
+DELIMITER //
+Create procedure Editar_cliente (
+in id nvarchar(17)
+, in Nom varchar(30)
+, in Apell varchar(30)
+, in Contac nvarchar(50)
+, in Dir varchar(65)
+, out Mensaje varchar(80))
+BEGIN
+  if (length(Nom) = 0 or length(Apell) = 0 or length(Contac) = 0 or length(Dir) = 0)
+  then set Mensaje = "Por favor rellene todos los campos";
+  else 
+  update cliente set  Nombre = Nom, Apellido = Apell, Contacto= Contac, Direccion = Dir
+  WHERE idCliente = id;
+  set Mesaje = "Los datos de actualizaron exitosamente";
+  end if;
+END //
+DELIMITER ;
+
+
+DELIMITER //
+Create procedure Eliminar_cliente (
+in id nvarchar(17)
+, out Mensaje varchar(80))
+begin 
+   Delete FROM cliente where idCliente = id;
+   set Mensaje = "Cliente eliminado con exito";
+end //
+DELIMITER ;
+
+DELIMITER //
+Create procedure Buscar_cliente (
+IN dato varchar(50)
+, in ind integer
+)
+begin
+if (ind = 0)
+then select* from cliente where idCliente like '%'|| dato ||'%';
+else if (ind = 1)
+then select* from cliente where Nombre like '%' || dato ||'%';
+else if (ind = 2)
+then select* from cliente where Apellido like '%'|| dato || '%';
+else if (ind = 3)
+then select* from cliente where Direccion like '%' || dato || '%';
+end if;
+end if;
+end if;
+end if;
+end //
+DELIMITER ;
+
+DELIMITER //
+Create procedure Listar_clientes ()
+BEGIN
+SELECT* FROM clientes;
+end //
+DELIMITER ;
+
+-- -- Categorias
+
+DELIMITER //
+Create procedure Listar_categoria ()
+begin
+select* from  categoria;
+end //
+DELIMITER ;
+
+DELIMITER //
+Create procedure Agregar_categoria (
+in Nomb varchar(45)
+, out Mensaje varchar(80))
+BEGIN
+if (length(Nomb) = 0)
+then set Mensaje = "Por favor introducir el nombre de la categoria";
+else 
+Insert into categoria (Nombre) values (Nomb);
+end if;
+end //
+DELIMITER ;
+
+DELIMITER //
+Create procedure Editar_categoria (
+in id integer
+, in Nom varchar(45)
+, out Mensaje varchar(80))
+begin
+if (length(Nom) = 0)
+then set Mensaje = "Por favor introducir el nombre de la categoria";
+else 
+update categoria set Nombre = Nom WHERE idCategoria = id;
+set Mensaje = "La categoria se edito de manera exitosa";
+end if;
+end //
+DELIMITER ;
+
+DELIMITER //
+Create procedure Eliminar_categoria (
+in id integer
+, out Mensaje varchar(80))
+Begin 
+delete from categoria where idCategoria = id ;
+set Mensaje = "La categoria fue eliminada de manera exitosa";
+end //
+DELIMITER ;
+
+-- -- Producto 
+
+DELIMITER //
+Create procedure Listar_producto ()
+begin 
+select* from producto;
+end //
+DELIMITER ; 
+
+DELIMITER //
+Create procedure Eliminar_producto (
+in id integer 
+, out Mensaje varchar(80))
+begin
+delete from producto where idProducto = id;
+set Mensaje = "El producto se elimino de manera exitosa";
+end //
+DELIMITER ;
+
+DELIMITER //
+Create procedure Agregar_producto (
+in Id integer 
+, in Nom varchar(35)
+, in Descrip varchar(65)
+, in Prec integer
+, in Marc varchar(45)
+, in Fec varchar(15)
+, in Cat integer 
+, out Mensaje varchar(80))
+begin 
+if (length(Id)=0 or length(Nom)=0 or length(Descrip)=0 or length(Prec)=0 or length(Marc)=0 or length(Cat) = 0)
+then set Mensaje = "Por favor rellene todos los campos";
+else if (exists(select* from producto where idProducto = Id))
+then set Mensaje = "Ya existe un producto con el mismo ID";
+else if (length(Fec) = 0)
+then Insert into producto values (Id,Nom,Descrip,Prec,Marc,0,'NONE',Cat);
+set Mensaje = "Producto Registrado de manera exitosa";
+else
+Insert into producto values (Id,Nom,Descrip,Prec,Marc,0,Fec,Cat);
+set Mensaje = "Producto Registrado de manera exitosa";
+end if;
+end if;
+end if;
+end //
+DELIMITER ;
+
+DELIMITER //
+Create procedure Editar_producto (
+in Id integer 
+, in Nom varchar(35)
+, in Descrip varchar(65)
+, in Prec integer
+, in Marc varchar(45)
+, in Fec varchar(15)
+, in Cat integer 
+, out Mensaje varchar(80))
+begin 
+if (length(Nom)=0 or length(Descrip)=0 or length(Prec)=0 or length(Marc)=0 or length(Cat) = 0)
+then set Mensaje = "Por favor rellene todos los campos";
+else if (exists(select* from producto where idProducto = Id))
+then set Mensaje = "Ya existe un producto con el mismo ID";
+else if (length(Fec) = 0)
+Then Update producto set Nombre=Nom, Descripcion=Descrip, Precio=Prec, Marca=Marc, Fecha_Vec='NONE', Categoria_id=Cat where idProducto = Id; 
+set Mensaje = "Producto editado de manera exitosa";
+else
+Update producto set Nombre=Nom, Descripcion=Descrip, Precio=Prec, Marca=Marc, Fecha_Vec=Fec, Categoria_id=Cat where idProducto = Id; 
+set Mensaje = "Producto editado de manera exitosa";
+end if;
+end if;
+end if;
+end //
+DELIMITER ;
+
+-- -- 
 
 
 

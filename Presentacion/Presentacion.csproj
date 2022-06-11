@@ -187,6 +187,12 @@
     <Compile Include="agregar_producto.Designer.cs">
       <DependentUpon>agregar_producto.cs</DependentUpon>
     </Compile>
+    <Compile Include="Categoria.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Categoria.Designer.cs">
+      <DependentUpon>Categoria.cs</DependentUpon>
+    </Compile>
     <Compile Include="Cliente.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -310,6 +316,9 @@
     <EmbeddedResource Include="agregar_producto.resx">
       <DependentUpon>agregar_producto.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Categoria.resx">
+      <DependentUpon>Categoria.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Cliente.resx">
       <DependentUpon>Cliente.cs</DependentUpon>
     </EmbeddedResource>
@@ -339,6 +348,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Editar_Client.resx">
       <DependentUpon>Editar_Client.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="editar_producto.resx">
+      <DependentUpon>editar_producto.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
