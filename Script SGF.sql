@@ -21,7 +21,7 @@ USE `SGF` ;
 -- Table `SGF`.`Cliente`
 -- -----------------------------------------------------
 CREATE TABLE IF NOT EXISTS `SGF`.`Cliente` (
-  `idCliente` INT NOT NULL,
+  `idCliente` nvarchar(17) NOT NULL,
   `Nombre` VARCHAR(30) NOT NULL,
   `Apellido` VARCHAR(30) NOT NULL,
   `Contacto` NVARCHAR(50) NOT NULL,
@@ -191,18 +191,46 @@ Create Procedure Validacion (
 , in contrasp varchar (45)
 , OUT Mensaje varchar (80))
 begin 
- if (exists(select* from usuarios where Nombre = idp  and pass = contrasp))
+ if (length(idp) = 0 or length(contrasp) = 0)
+ then set Mensaje = "Por favor rellene todos los campos";
+ else if (exists(select* from usuarios where Nombre = idp  and pass = contrasp))
  then set Mensaje = concat("Bienvenido ",idp); 
  else set Mensaje = "Datos Incorrectos";
+ end if;
  end if;
 END//
 DELIMITER ;
 
-
-
-CALL Validacion('Elton','123',@me);
+CALL Validacion('Elton','',@me);
 SELECT @me;
 
-insert into usuarios (Nombre, Pass) values ('Elton','123');
+
+
+
+
+
+-- -- Clientes
+DELIMITER //
+Create procedure Agregar_Clientes (
+in id nvarchar(17)
+, in Nom varchar(30)
+, in Apell varchar(30)
+, in Contac nvarchar(50)
+, in Dir varchar(65)
+, out Mensaje varchar(80))
+begin
+  if (length(id) = 0 or length(Nom) = 0 or length(Apell) = 0 or length(Contac) = 0 or length(Dir) = 0)
+  then set Mensaje = "Por favor rellene todos los campos";
+  else if (exists(select* from cliente where idCliente = id))
+  then set Mesaje = "Ya xiste un cliente registrado con ese ID";
+  else 
+  insert into cliente values (id,Nom,Apell,Contac,Dir);
+   set Mensaje = "Cliente registrado exitosamente";
+  end if;
+  end if;
+end //
+DELIMITER ;
+
+
 
 
