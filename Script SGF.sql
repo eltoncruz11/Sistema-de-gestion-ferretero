@@ -222,7 +222,7 @@ begin
   if (length(id) = 0 or length(Nom) = 0 or length(Apell) = 0 or length(Contac) = 0 or length(Dir) = 0)
   then set Mensaje = "Por favor rellene todos los campos";
   else if (exists(select* from cliente where idCliente = id))
-  then set Mesaje = "Ya xiste un cliente registrado con ese ID";
+  then set Mensaje = "Ya xiste un cliente registrado con ese ID";
   else 
   insert into cliente values (id,Nom,Apell,Contac,Dir);
    set Mensaje = "Cliente registrado exitosamente";
@@ -230,6 +230,9 @@ begin
   end if;
 end //
 DELIMITER ;
+
+Call Agregar_cliente('2','Elton','Cruz','+505 87457218','Siuna', @e)
+
 
 
 DELIMITER //
@@ -411,6 +414,8 @@ end //
 DELIMITER ;
 
 -- -- 
+
+select* from Cliente
 
 
 

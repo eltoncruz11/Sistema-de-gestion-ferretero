@@ -19,6 +19,7 @@ namespace Enlace_datos
         public Int32  Tamaño { get; set; }
         public ParameterDirection Direccion { get; set; }
 
+
         //constructores
 
         #region Contructor de Entrada
@@ -31,11 +32,12 @@ namespace Enlace_datos
         #endregion
 
         #region Contructor de Salida
-        public Parametros (String Obj_Nombre,MySqlDbType Obj_TipoDato, Int32 Obj_Tamaño)
+        public Parametros (String Obj_Nombre,object valor,MySqlDbType Obj_TipoDato, Int32 Obj_Tamaño)
         {
             Nombre=Obj_Nombre;
             TipoDato=Obj_TipoDato;
             Tamaño = Obj_Tamaño;
+            Valor = valor;
             Direccion=ParameterDirection.Output;
         }
         #endregion

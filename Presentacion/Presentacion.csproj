@@ -402,12 +402,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Intermedio\Intermedio.csproj">
-      <Project>{f9aacb49-7317-447c-97e8-24014bac6b02}</Project>
-      <Name>Intermedio</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\icons8-expand-collapse-arrows-643.png" />
   </ItemGroup>
   <ItemGroup>
@@ -568,6 +562,15 @@
     <Content Include="SqlServerTypes\x86\SqlServerSpatial140.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Intermedio\Intermedio.csproj">
+      <Project>{f9aacb49-7317-447c-97e8-24014bac6b02}</Project>
+      <Name>Intermedio</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
