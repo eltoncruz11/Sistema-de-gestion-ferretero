@@ -280,6 +280,12 @@
     <Compile Include="editar_producto.Designer.cs">
       <DependentUpon>editar_producto.cs</DependentUpon>
     </Compile>
+    <Compile Include="Fac_lis.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Fac_lis.Designer.cs">
+      <DependentUpon>Fac_lis.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -384,6 +390,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="editar_producto.resx">
       <DependentUpon>editar_producto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Fac_lis.resx">
+      <DependentUpon>Fac_lis.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
@@ -625,6 +634,8 @@
     <None Include="Resources\report.png" />
     <None Include="Resources\report %281%29.png" />
     <None Include="Resources\app.png" />
+    <None Include="Resources\icons8-check-64.png" />
+    <None Include="Resources\icons8-facturación-48.png" />
     <Content Include="SqlServerTypes\readme.htm" />
     <Content Include="SqlServerTypes\x64\msvcr120.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
