@@ -72,80 +72,6 @@ C:\Users\yader\Source\Repos\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\
 C:\Users\yader\Source\Repos\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuTransition.xml
 C:\Users\yader\Source\Repos\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuUserControl.xml
 C:\Users\yader\Source\Repos\Sistema-de-gestion-ferretero\Enlace_datos\obj\Debug\Enlace_datos.csproj.CopyComplete
-C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Enlace_datos.dll
-C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Enlace_datos.pdb
-C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.Licensing.dll
-C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.1.5.3.dll
-C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuButton.dll
-C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuCheckBox.dll
-C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuCircleProgress.dll
-C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuColorTransition.dll
-C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.dll
-C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.dll
-C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuDropdown.dll
-C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuFormDock.dll
-C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuGauge.dll
-C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuGradientPanel.dll
-C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuGroupBox.dll
-C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuImageButton.dll
-C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.dll
-C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuLoader.dll
-C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuPages.dll
-C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuPanel.dll
-C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.dll
-C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuProgressBar.dll
-C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuRadioButton.dll
-C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuRating.dll
-C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuScrollBar.dll
-C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuSeparator.dll
-C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuShadowPanel.dll
-C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuShapes.dll
-C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuSlider.dll
-C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuSnackbar.dll
-C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuTextBox.dll
-C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuToggleSwitch.dll
-C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuToolTip.dll
-C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuTransition.dll
-C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuUserControl.dll
-C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.Deprecated.dll
-C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Guna.UI2.dll
-C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.1.5.3.xml
-C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuButton.xml
-C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuCheckBox.xml
-C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuCircleProgress.xml
-C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuColorTransition.xml
-C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.xml
-C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.xml
-C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuDropdown.xml
-C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuFormDock.xml
-C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuGauge.xml
-C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuGradientPanel.xml
-C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuGroupBox.xml
-C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuImageButton.xml
-C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.xml
-C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuLoader.xml
-C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuPages.xml
-C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuPanel.xml
-C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.xml
-C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuProgressBar.xml
-C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuRadioButton.xml
-C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuRating.xml
-C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuScrollBar.xml
-C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuSeparator.xml
-C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuShadowPanel.xml
-C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuShapes.xml
-C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuSlider.xml
-C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuSnackbar.xml
-C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuTextBox.xml
-C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuToggleSwitch.xml
-C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuToolTip.xml
-C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuTransition.xml
-C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuUserControl.xml
-C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\obj\Debug\Enlace_datos.csproj.AssemblyReference.cache
-C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\obj\Debug\Enlace_datos.csproj.CoreCompileInputs.cache
-C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\obj\Debug\Enlace_datos.csproj.CopyComplete
-C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\obj\Debug\Enlace_datos.dll
-C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\obj\Debug\Enlace_datos.pdb
 D:\Documentos\GitHub\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Enlace_datos.dll
 D:\Documentos\GitHub\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Enlace_datos.pdb
 D:\Documentos\GitHub\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.Licensing.dll
@@ -220,6 +146,43 @@ D:\Documentos\GitHub\Sistema-de-gestion-ferretero\Enlace_datos\obj\Debug\Enlace_
 D:\Documentos\GitHub\Sistema-de-gestion-ferretero\Enlace_datos\obj\Debug\Enlace_datos.csproj.CopyComplete
 D:\Documentos\GitHub\Sistema-de-gestion-ferretero\Enlace_datos\obj\Debug\Enlace_datos.dll
 D:\Documentos\GitHub\Sistema-de-gestion-ferretero\Enlace_datos\obj\Debug\Enlace_datos.pdb
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Enlace_datos.dll
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Enlace_datos.pdb
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.Licensing.dll
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.1.5.3.dll
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuButton.dll
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuCheckBox.dll
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuCircleProgress.dll
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuColorTransition.dll
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.dll
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.dll
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuDropdown.dll
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuFormDock.dll
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuGauge.dll
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuGradientPanel.dll
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuGroupBox.dll
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuImageButton.dll
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.dll
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuLoader.dll
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuPages.dll
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuPanel.dll
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.dll
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuProgressBar.dll
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuRadioButton.dll
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuRating.dll
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuScrollBar.dll
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuSeparator.dll
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuShadowPanel.dll
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuShapes.dll
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuSlider.dll
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuSnackbar.dll
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuTextBox.dll
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuToggleSwitch.dll
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuToolTip.dll
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuTransition.dll
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuUserControl.dll
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.Deprecated.dll
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Guna.UI2.dll
 C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\MySql.Data.dll
 C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Google.Protobuf.dll
 C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\ZstdNet.dll
@@ -230,4 +193,126 @@ C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferreter
 C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\System.Buffers.dll
 C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\K4os.Compression.LZ4.dll
 C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.1.5.3.xml
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuButton.xml
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuCheckBox.xml
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuCircleProgress.xml
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuColorTransition.xml
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.xml
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.xml
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuDropdown.xml
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuFormDock.xml
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuGauge.xml
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuGradientPanel.xml
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuGroupBox.xml
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuImageButton.xml
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.xml
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuLoader.xml
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuPages.xml
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuPanel.xml
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.xml
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuProgressBar.xml
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuRadioButton.xml
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuRating.xml
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuScrollBar.xml
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuSeparator.xml
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuShadowPanel.xml
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuShapes.xml
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuSlider.xml
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuSnackbar.xml
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuTextBox.xml
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuToggleSwitch.xml
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuToolTip.xml
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuTransition.xml
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuUserControl.xml
 C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\MySql.Data.xml
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\obj\Debug\Enlace_datos.csproj.AssemblyReference.cache
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\obj\Debug\Enlace_datos.csproj.CoreCompileInputs.cache
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\obj\Debug\Enlace_datos.csproj.CopyComplete
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\obj\Debug\Enlace_datos.dll
+C:\Users\elton\OneDrive\Documentos\Repositorio Local\Sistema-de-gestion-ferretero\Enlace_datos\obj\Debug\Enlace_datos.pdb
+D:\Escritorio\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Enlace_datos.dll
+D:\Escritorio\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Enlace_datos.pdb
+D:\Escritorio\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.Licensing.dll
+D:\Escritorio\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.1.5.3.dll
+D:\Escritorio\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuButton.dll
+D:\Escritorio\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuCheckBox.dll
+D:\Escritorio\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuCircleProgress.dll
+D:\Escritorio\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuColorTransition.dll
+D:\Escritorio\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.dll
+D:\Escritorio\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.dll
+D:\Escritorio\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuDropdown.dll
+D:\Escritorio\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuFormDock.dll
+D:\Escritorio\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuGauge.dll
+D:\Escritorio\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuGradientPanel.dll
+D:\Escritorio\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuGroupBox.dll
+D:\Escritorio\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuImageButton.dll
+D:\Escritorio\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.dll
+D:\Escritorio\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuLoader.dll
+D:\Escritorio\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuPages.dll
+D:\Escritorio\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuPanel.dll
+D:\Escritorio\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.dll
+D:\Escritorio\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuProgressBar.dll
+D:\Escritorio\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuRadioButton.dll
+D:\Escritorio\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuRating.dll
+D:\Escritorio\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuScrollBar.dll
+D:\Escritorio\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuSeparator.dll
+D:\Escritorio\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuShadowPanel.dll
+D:\Escritorio\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuShapes.dll
+D:\Escritorio\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuSlider.dll
+D:\Escritorio\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuSnackbar.dll
+D:\Escritorio\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuTextBox.dll
+D:\Escritorio\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuToggleSwitch.dll
+D:\Escritorio\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuToolTip.dll
+D:\Escritorio\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuTransition.dll
+D:\Escritorio\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuUserControl.dll
+D:\Escritorio\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.Deprecated.dll
+D:\Escritorio\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Guna.UI2.dll
+D:\Escritorio\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\MySql.Data.dll
+D:\Escritorio\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Google.Protobuf.dll
+D:\Escritorio\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\ZstdNet.dll
+D:\Escritorio\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\Escritorio\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\BouncyCastle.Crypto.dll
+D:\Escritorio\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Ubiety.Dns.Core.dll
+D:\Escritorio\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\System.Memory.dll
+D:\Escritorio\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\System.Buffers.dll
+D:\Escritorio\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\K4os.Compression.LZ4.dll
+D:\Escritorio\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\K4os.Hash.xxHash.dll
+D:\Escritorio\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.1.5.3.xml
+D:\Escritorio\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuButton.xml
+D:\Escritorio\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuCheckBox.xml
+D:\Escritorio\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuCircleProgress.xml
+D:\Escritorio\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuColorTransition.xml
+D:\Escritorio\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuDataGridView.xml
+D:\Escritorio\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuDatePicker.xml
+D:\Escritorio\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuDropdown.xml
+D:\Escritorio\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuFormDock.xml
+D:\Escritorio\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuGauge.xml
+D:\Escritorio\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuGradientPanel.xml
+D:\Escritorio\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuGroupBox.xml
+D:\Escritorio\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuImageButton.xml
+D:\Escritorio\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuLabel.xml
+D:\Escritorio\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuLoader.xml
+D:\Escritorio\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuPages.xml
+D:\Escritorio\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuPanel.xml
+D:\Escritorio\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuPictureBox.xml
+D:\Escritorio\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuProgressBar.xml
+D:\Escritorio\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuRadioButton.xml
+D:\Escritorio\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuRating.xml
+D:\Escritorio\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuScrollBar.xml
+D:\Escritorio\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuSeparator.xml
+D:\Escritorio\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuShadowPanel.xml
+D:\Escritorio\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuShapes.xml
+D:\Escritorio\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuSlider.xml
+D:\Escritorio\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuSnackbar.xml
+D:\Escritorio\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuTextBox.xml
+D:\Escritorio\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuToggleSwitch.xml
+D:\Escritorio\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuToolTip.xml
+D:\Escritorio\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuTransition.xml
+D:\Escritorio\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\Bunifu.UI.WinForms.BunifuUserControl.xml
+D:\Escritorio\Sistema-de-gestion-ferretero\Enlace_datos\bin\Debug\MySql.Data.xml
+D:\Escritorio\Sistema-de-gestion-ferretero\Enlace_datos\obj\Debug\Enlace_datos.csproj.AssemblyReference.cache
+D:\Escritorio\Sistema-de-gestion-ferretero\Enlace_datos\obj\Debug\Enlace_datos.csproj.CoreCompileInputs.cache
+D:\Escritorio\Sistema-de-gestion-ferretero\Enlace_datos\obj\Debug\Enlace_datos.csproj.CopyComplete
+D:\Escritorio\Sistema-de-gestion-ferretero\Enlace_datos\obj\Debug\Enlace_datos.dll
+D:\Escritorio\Sistema-de-gestion-ferretero\Enlace_datos\obj\Debug\Enlace_datos.pdb

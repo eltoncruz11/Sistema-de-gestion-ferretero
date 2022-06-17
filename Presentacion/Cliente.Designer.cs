@@ -45,6 +45,7 @@
             this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2CirclePictureBox2 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2CirclePictureBox3 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.bunifuPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -52,6 +53,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2ComboBox1
@@ -76,7 +78,7 @@
             "Apellido",
             "Direccion"});
             this.guna2ComboBox1.ItemsAppearance.Parent = this.guna2ComboBox1;
-            this.guna2ComboBox1.Location = new System.Drawing.Point(370, 55);
+            this.guna2ComboBox1.Location = new System.Drawing.Point(431, 58);
             this.guna2ComboBox1.Name = "guna2ComboBox1";
             this.guna2ComboBox1.ShadowDecoration.Parent = this.guna2ComboBox1;
             this.guna2ComboBox1.Size = new System.Drawing.Size(144, 36);
@@ -151,7 +153,7 @@
             this.bunifuTextBox1.IconLeft = null;
             this.bunifuTextBox1.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
             this.bunifuTextBox1.IconPadding = 10;
-            this.bunifuTextBox1.IconRight = global::Presentacion.Properties.Resources.buscar;
+            this.bunifuTextBox1.IconRight = null;
             this.bunifuTextBox1.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.bunifuTextBox1.Lines = new string[0];
             this.bunifuTextBox1.Location = new System.Drawing.Point(36, 52);
@@ -230,6 +232,7 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 15;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // guna2CirclePictureBox4
             // 
@@ -243,6 +246,7 @@
             this.guna2CirclePictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2CirclePictureBox4.TabIndex = 9;
             this.guna2CirclePictureBox4.TabStop = false;
+            this.guna2CirclePictureBox4.Click += new System.EventHandler(this.guna2CirclePictureBox4_Click);
             // 
             // guna2CirclePictureBox1
             // 
@@ -270,6 +274,7 @@
             this.guna2CirclePictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2CirclePictureBox2.TabIndex = 7;
             this.guna2CirclePictureBox2.TabStop = false;
+            this.guna2CirclePictureBox2.Click += new System.EventHandler(this.guna2CirclePictureBox2_Click);
             // 
             // guna2CirclePictureBox3
             // 
@@ -285,12 +290,24 @@
             this.guna2CirclePictureBox3.TabStop = false;
             this.guna2CirclePictureBox3.Click += new System.EventHandler(this.guna2CirclePictureBox3_Click);
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::Presentacion.Properties.Resources.buscar;
+            this.pictureBox2.Location = new System.Drawing.Point(370, 52);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(34, 42);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 14;
+            this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+            // 
             // Cliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(8)))), ((int)(((byte)(53)))));
             this.ClientSize = new System.Drawing.Size(1130, 719);
+            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.guna2ComboBox1);
             this.Controls.Add(this.bunifuTextBox1);
@@ -307,6 +324,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -322,5 +340,6 @@
         private Bunifu.UI.WinForms.BunifuTextBox bunifuTextBox1;
         private System.Windows.Forms.PictureBox pictureBox1;
         public System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

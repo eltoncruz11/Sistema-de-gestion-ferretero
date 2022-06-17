@@ -29,56 +29,52 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Inventario));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties1 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties2 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties3 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties4 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle13 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle14 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle15 = new System.Windows.Forms.DataGridViewCellStyle();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties17 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties18 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties19 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties20 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.bunifuLabel6 = new Bunifu.UI.WinForms.BunifuLabel();
             this.bunifuLabel1 = new Bunifu.UI.WinForms.BunifuLabel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             this.bunifuLabel5 = new Bunifu.UI.WinForms.BunifuLabel();
             this.bunifuLabel2 = new Bunifu.UI.WinForms.BunifuLabel();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
             this.bunifuLabel4 = new Bunifu.UI.WinForms.BunifuLabel();
             this.bunifuLabel3 = new Bunifu.UI.WinForms.BunifuLabel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.guna2ComboBox1 = new Guna.UI2.WinForms.Guna2ComboBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.bunifuTextBox1 = new Bunifu.UI.WinForms.BunifuTextBox();
             this.bunifuPanel1 = new Bunifu.UI.WinForms.BunifuPanel();
+            this.guna2CirclePictureBox6 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2CirclePictureBox5 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.guna2CirclePictureBox4 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2CirclePictureBox2 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2CirclePictureBox3 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.dataGridViewImageColumn1 = new System.Windows.Forms.DataGridViewImageColumn();
-            this.guna2CirclePictureBox6 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
+            this.guna2CirclePictureBox4 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2Panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.guna2Panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.guna2Panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.bunifuPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox4)).BeginInit();
             this.SuspendLayout();
             // 
             // guna2Panel1
@@ -126,6 +122,16 @@
             this.bunifuLabel1.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
             this.bunifuLabel1.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::Presentacion.Properties.Resources.Icono_1_L1;
+            this.pictureBox2.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(79, 77);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 2;
+            this.pictureBox2.TabStop = false;
+            // 
             // guna2Panel2
             // 
             this.guna2Panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(12)))), ((int)(((byte)(70)))));
@@ -169,6 +175,16 @@
             this.bunifuLabel2.Text = "Categorias";
             this.bunifuLabel2.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
             this.bunifuLabel2.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::Presentacion.Properties.Resources.Icono_1_L;
+            this.pictureBox3.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(79, 77);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 3;
+            this.pictureBox3.TabStop = false;
             // 
             // guna2Panel3
             // 
@@ -215,6 +231,16 @@
             this.bunifuLabel3.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
             this.bunifuLabel3.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Presentacion.Properties.Resources.Icono_1_L4;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(80, 77);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 1;
+            this.pictureBox1.TabStop = false;
+            // 
             // guna2ComboBox1
             // 
             this.guna2ComboBox1.BackColor = System.Drawing.Color.Transparent;
@@ -233,11 +259,10 @@
             this.guna2ComboBox1.ItemHeight = 30;
             this.guna2ComboBox1.Items.AddRange(new object[] {
             "Id",
-            "Marca",
             "Nombre",
             "Categoria"});
             this.guna2ComboBox1.ItemsAppearance.Parent = this.guna2ComboBox1;
-            this.guna2ComboBox1.Location = new System.Drawing.Point(370, 123);
+            this.guna2ComboBox1.Location = new System.Drawing.Point(424, 126);
             this.guna2ComboBox1.Name = "guna2ComboBox1";
             this.guna2ComboBox1.ShadowDecoration.Parent = this.guna2ComboBox1;
             this.guna2ComboBox1.Size = new System.Drawing.Size(144, 36);
@@ -245,85 +270,58 @@
             // 
             // dataGridView1
             // 
+            this.dataGridView1.AllowUserToAddRows = false;
+            this.dataGridView1.AllowUserToDeleteRows = false;
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
             this.dataGridView1.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.dataGridView1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(8)))), ((int)(((byte)(53)))));
             this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dataGridView1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(101)))), ((int)(((byte)(203)))));
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.WhiteSmoke;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle13.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(101)))), ((int)(((byte)(203)))));
+            dataGridViewCellStyle13.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle13.ForeColor = System.Drawing.Color.WhiteSmoke;
+            dataGridViewCellStyle13.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle13.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle13.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle13;
             this.dataGridView1.ColumnHeadersHeight = 38;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Column1,
-            this.Column2,
-            this.Column3,
-            this.Column4,
-            this.Column5,
-            this.Column6});
             this.dataGridView1.EnableHeadersVisualStyles = false;
             this.dataGridView1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(1)))), ((int)(((byte)(101)))), ((int)(((byte)(203)))));
             this.dataGridView1.Location = new System.Drawing.Point(36, 178);
             this.dataGridView1.Name = "dataGridView1";
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(8)))), ((int)(((byte)(53)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.Info;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            this.dataGridView1.ReadOnly = true;
+            dataGridViewCellStyle14.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(8)))), ((int)(((byte)(53)))));
+            dataGridViewCellStyle14.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle14.ForeColor = System.Drawing.SystemColors.Info;
+            dataGridViewCellStyle14.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle14.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle14.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle14;
             this.dataGridView1.RowHeadersVisible = false;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(8)))), ((int)(((byte)(53)))));
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(143)))), ((int)(((byte)(219)))));
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.Magenta;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.dataGridView1.RowsDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(8)))), ((int)(((byte)(53)))));
+            dataGridViewCellStyle15.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle15.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(143)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle15.SelectionBackColor = System.Drawing.Color.Magenta;
+            dataGridViewCellStyle15.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.dataGridView1.RowsDefaultCellStyle = dataGridViewCellStyle15;
+            this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView1.Size = new System.Drawing.Size(1003, 487);
             this.dataGridView1.TabIndex = 10;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
-            // Column1
+            // pictureBox4
             // 
-            this.Column1.HeaderText = "Id";
-            this.Column1.Name = "Column1";
-            this.Column1.Width = 50;
-            // 
-            // Column2
-            // 
-            this.Column2.HeaderText = "Nombre";
-            this.Column2.Name = "Column2";
-            this.Column2.Width = 108;
-            // 
-            // Column3
-            // 
-            this.Column3.HeaderText = "Marca";
-            this.Column3.Name = "Column3";
-            this.Column3.Width = 90;
-            // 
-            // Column4
-            // 
-            this.Column4.HeaderText = "Precio";
-            this.Column4.Name = "Column4";
-            this.Column4.Width = 93;
-            // 
-            // Column5
-            // 
-            this.Column5.HeaderText = "Existencia";
-            this.Column5.Name = "Column5";
-            this.Column5.Width = 129;
-            // 
-            // Column6
-            // 
-            this.Column6.HeaderText = "Categoria";
-            this.Column6.Name = "Column6";
-            this.Column6.Width = 122;
+            this.pictureBox4.Image = global::Presentacion.Properties.Resources.buscar;
+            this.pictureBox4.Location = new System.Drawing.Point(370, 120);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(34, 42);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 15;
+            this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
             // bunifuTextBox1
             // 
@@ -351,7 +349,7 @@
             this.bunifuTextBox1.IconLeft = null;
             this.bunifuTextBox1.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
             this.bunifuTextBox1.IconPadding = 10;
-            this.bunifuTextBox1.IconRight = global::Presentacion.Properties.Resources.buscar;
+            this.bunifuTextBox1.IconRight = null;
             this.bunifuTextBox1.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.bunifuTextBox1.Lines = new string[0];
             this.bunifuTextBox1.Location = new System.Drawing.Point(36, 120);
@@ -360,26 +358,26 @@
             this.bunifuTextBox1.Modified = false;
             this.bunifuTextBox1.Multiline = false;
             this.bunifuTextBox1.Name = "bunifuTextBox1";
-            stateProperties1.BorderColor = System.Drawing.Color.DodgerBlue;
-            stateProperties1.FillColor = System.Drawing.Color.Empty;
-            stateProperties1.ForeColor = System.Drawing.Color.Empty;
-            stateProperties1.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.bunifuTextBox1.OnActiveState = stateProperties1;
-            stateProperties2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            stateProperties2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            stateProperties2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            stateProperties2.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.bunifuTextBox1.OnDisabledState = stateProperties2;
-            stateProperties3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties3.FillColor = System.Drawing.Color.Empty;
-            stateProperties3.ForeColor = System.Drawing.Color.Empty;
-            stateProperties3.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.bunifuTextBox1.OnHoverState = stateProperties3;
-            stateProperties4.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(177)))), ((int)(((byte)(255)))));
-            stateProperties4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(8)))), ((int)(((byte)(53)))));
-            stateProperties4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(177)))), ((int)(((byte)(255)))));
-            stateProperties4.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.bunifuTextBox1.OnIdleState = stateProperties4;
+            stateProperties17.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties17.FillColor = System.Drawing.Color.Empty;
+            stateProperties17.ForeColor = System.Drawing.Color.Empty;
+            stateProperties17.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.bunifuTextBox1.OnActiveState = stateProperties17;
+            stateProperties18.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties18.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties18.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.bunifuTextBox1.OnDisabledState = stateProperties18;
+            stateProperties19.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties19.FillColor = System.Drawing.Color.Empty;
+            stateProperties19.ForeColor = System.Drawing.Color.Empty;
+            stateProperties19.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.bunifuTextBox1.OnHoverState = stateProperties19;
+            stateProperties20.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(177)))), ((int)(((byte)(255)))));
+            stateProperties20.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(8)))), ((int)(((byte)(53)))));
+            stateProperties20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(177)))), ((int)(((byte)(255)))));
+            stateProperties20.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.bunifuTextBox1.OnIdleState = stateProperties20;
             this.bunifuTextBox1.Padding = new System.Windows.Forms.Padding(3);
             this.bunifuTextBox1.PasswordChar = '\0';
             this.bunifuTextBox1.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(59)))), ((int)(((byte)(93)))));
@@ -410,23 +408,37 @@
             this.bunifuPanel1.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(177)))), ((int)(((byte)(255)))));
             this.bunifuPanel1.BorderRadius = 20;
             this.bunifuPanel1.BorderThickness = 2;
+            this.bunifuPanel1.Controls.Add(this.guna2CirclePictureBox4);
             this.bunifuPanel1.Controls.Add(this.guna2CirclePictureBox6);
             this.bunifuPanel1.Controls.Add(this.guna2CirclePictureBox5);
-            this.bunifuPanel1.Controls.Add(this.guna2CirclePictureBox4);
             this.bunifuPanel1.Controls.Add(this.guna2CirclePictureBox1);
             this.bunifuPanel1.Controls.Add(this.guna2CirclePictureBox2);
             this.bunifuPanel1.Controls.Add(this.guna2CirclePictureBox3);
             this.bunifuPanel1.Location = new System.Drawing.Point(1072, 218);
             this.bunifuPanel1.Name = "bunifuPanel1";
             this.bunifuPanel1.ShowBorders = true;
-            this.bunifuPanel1.Size = new System.Drawing.Size(46, 302);
+            this.bunifuPanel1.Size = new System.Drawing.Size(46, 304);
             this.bunifuPanel1.TabIndex = 6;
+            // 
+            // guna2CirclePictureBox6
+            // 
+            this.guna2CirclePictureBox6.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CirclePictureBox6.Image = global::Presentacion.Properties.Resources.icons8_información_48;
+            this.guna2CirclePictureBox6.Location = new System.Drawing.Point(3, 166);
+            this.guna2CirclePictureBox6.Name = "guna2CirclePictureBox6";
+            this.guna2CirclePictureBox6.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox6.ShadowDecoration.Parent = this.guna2CirclePictureBox6;
+            this.guna2CirclePictureBox6.Size = new System.Drawing.Size(43, 36);
+            this.guna2CirclePictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2CirclePictureBox6.TabIndex = 13;
+            this.guna2CirclePictureBox6.TabStop = false;
+            this.guna2CirclePictureBox6.Click += new System.EventHandler(this.guna2CirclePictureBox6_Click);
             // 
             // guna2CirclePictureBox5
             // 
             this.guna2CirclePictureBox5.BackColor = System.Drawing.Color.Transparent;
-            this.guna2CirclePictureBox5.Image = global::Presentacion.Properties.Resources.icons8_información_48;
-            this.guna2CirclePictureBox5.Location = new System.Drawing.Point(0, 250);
+            this.guna2CirclePictureBox5.Image = global::Presentacion.Properties.Resources.app;
+            this.guna2CirclePictureBox5.Location = new System.Drawing.Point(3, 208);
             this.guna2CirclePictureBox5.Name = "guna2CirclePictureBox5";
             this.guna2CirclePictureBox5.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.guna2CirclePictureBox5.ShadowDecoration.Parent = this.guna2CirclePictureBox5;
@@ -434,19 +446,7 @@
             this.guna2CirclePictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2CirclePictureBox5.TabIndex = 12;
             this.guna2CirclePictureBox5.TabStop = false;
-            // 
-            // guna2CirclePictureBox4
-            // 
-            this.guna2CirclePictureBox4.BackColor = System.Drawing.Color.Transparent;
-            this.guna2CirclePictureBox4.Image = global::Presentacion.Properties.Resources.cupon;
-            this.guna2CirclePictureBox4.Location = new System.Drawing.Point(0, 166);
-            this.guna2CirclePictureBox4.Name = "guna2CirclePictureBox4";
-            this.guna2CirclePictureBox4.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox4.ShadowDecoration.Parent = this.guna2CirclePictureBox4;
-            this.guna2CirclePictureBox4.Size = new System.Drawing.Size(43, 36);
-            this.guna2CirclePictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2CirclePictureBox4.TabIndex = 9;
-            this.guna2CirclePictureBox4.TabStop = false;
+            this.guna2CirclePictureBox5.Click += new System.EventHandler(this.guna2CirclePictureBox5_Click);
             // 
             // guna2CirclePictureBox1
             // 
@@ -460,6 +460,7 @@
             this.guna2CirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2CirclePictureBox1.TabIndex = 0;
             this.guna2CirclePictureBox1.TabStop = false;
+            this.guna2CirclePictureBox1.Click += new System.EventHandler(this.guna2CirclePictureBox1_Click);
             // 
             // guna2CirclePictureBox2
             // 
@@ -473,6 +474,7 @@
             this.guna2CirclePictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2CirclePictureBox2.TabIndex = 7;
             this.guna2CirclePictureBox2.TabStop = false;
+            this.guna2CirclePictureBox2.Click += new System.EventHandler(this.guna2CirclePictureBox2_Click);
             // 
             // guna2CirclePictureBox3
             // 
@@ -486,36 +488,7 @@
             this.guna2CirclePictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2CirclePictureBox3.TabIndex = 8;
             this.guna2CirclePictureBox3.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Presentacion.Properties.Resources.Icono_1_L4;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(80, 77);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::Presentacion.Properties.Resources.Icono_1_L;
-            this.pictureBox3.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(79, 77);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 3;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::Presentacion.Properties.Resources.Icono_1_L1;
-            this.pictureBox2.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(79, 77);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 2;
-            this.pictureBox2.TabStop = false;
+            this.guna2CirclePictureBox3.Click += new System.EventHandler(this.guna2CirclePictureBox3_Click);
             // 
             // dataGridViewImageColumn1
             // 
@@ -526,18 +499,19 @@
             this.dataGridViewImageColumn1.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
             this.dataGridViewImageColumn1.Width = 143;
             // 
-            // guna2CirclePictureBox6
+            // guna2CirclePictureBox4
             // 
-            this.guna2CirclePictureBox6.BackColor = System.Drawing.Color.Transparent;
-            this.guna2CirclePictureBox6.Image = global::Presentacion.Properties.Resources.icons8_información_48;
-            this.guna2CirclePictureBox6.Location = new System.Drawing.Point(3, 208);
-            this.guna2CirclePictureBox6.Name = "guna2CirclePictureBox6";
-            this.guna2CirclePictureBox6.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
-            this.guna2CirclePictureBox6.ShadowDecoration.Parent = this.guna2CirclePictureBox6;
-            this.guna2CirclePictureBox6.Size = new System.Drawing.Size(43, 36);
-            this.guna2CirclePictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.guna2CirclePictureBox6.TabIndex = 13;
-            this.guna2CirclePictureBox6.TabStop = false;
+            this.guna2CirclePictureBox4.BackColor = System.Drawing.Color.Transparent;
+            this.guna2CirclePictureBox4.Image = global::Presentacion.Properties.Resources.cupon;
+            this.guna2CirclePictureBox4.Location = new System.Drawing.Point(0, 250);
+            this.guna2CirclePictureBox4.Name = "guna2CirclePictureBox4";
+            this.guna2CirclePictureBox4.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
+            this.guna2CirclePictureBox4.ShadowDecoration.Parent = this.guna2CirclePictureBox4;
+            this.guna2CirclePictureBox4.Size = new System.Drawing.Size(43, 36);
+            this.guna2CirclePictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.guna2CirclePictureBox4.TabIndex = 16;
+            this.guna2CirclePictureBox4.TabStop = false;
+            this.guna2CirclePictureBox4.Click += new System.EventHandler(this.guna2CirclePictureBox4_Click);
             // 
             // Inventario
             // 
@@ -545,6 +519,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(8)))), ((int)(((byte)(53)))));
             this.ClientSize = new System.Drawing.Size(1130, 719);
+            this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.guna2ComboBox1);
             this.Controls.Add(this.bunifuTextBox1);
@@ -558,21 +533,22 @@
             this.Load += new System.EventHandler(this.Inventario_Load);
             this.guna2Panel1.ResumeLayout(false);
             this.guna2Panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.guna2Panel2.ResumeLayout(false);
             this.guna2Panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.guna2Panel3.ResumeLayout(false);
             this.guna2Panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.bunifuPanel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox4)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -593,19 +569,14 @@
         private Bunifu.UI.WinForms.BunifuTextBox bunifuTextBox1;
         private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox1;
         private System.Windows.Forms.DataGridViewImageColumn dataGridViewImageColumn1;
-        private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
         private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox3;
         private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox2;
         private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox1;
-        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox4;
         private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox5;
         private Bunifu.UI.WinForms.BunifuPanel bunifuPanel1;
         private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox6;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        public System.Windows.Forms.DataGridView dataGridView1;
+        private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox4;
     }
 }

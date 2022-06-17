@@ -117,22 +117,22 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <metadata name="Codigo.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Column2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Column3.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Column4.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Direccion.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="bunifuTextBox1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAAZAAAAAxCAYAAAD0iP8zAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAILSURBVHhe7dqxaxNhHMfhGzuptclFB6mjo4tQ0H9BcctU
+        EKcMDkUEXYQ6dXEMDsXByQ4il6ggTjr5Dzg4dnMVuhSXe703uVhCzsEfbnm+8AzN3Tt/eI8WZmZm/239
+        Kl0fVOneYJr2AVhf5aQeldN6p83D35dfal7+3hxKAHCm/pkvFm0ulpfjsXixfPkj9Z9+Sb3dQwDWWP/x
+        p1S+OP4TkrKq99pszLf9OW00ATnOD3M4Ns/dTJsbNwBgZuv2wTwgk/q0uYlcbfNxdvvINw/xAKBL+ezr
+        IiKjNh9NQJorSf6x9/B95yEA6A3Hi09Z+20+iiL/MQvI7mHnIQDIjRAQAP6ZgAAQIiAAhAgIACECAkCI
+        gAAQIiAAhAgIACECAkCIgAAQIiAAhAgIACECAkCIgAAQIiAAhAgIACECAkCIgAAQIiAAhAgIACECAkCI
+        gAAQIiAAhAgIACECAkCIgAAQIiAAhAgIACECAkCIgAAQIiAAhAgIACECAkCIgAAQ0h2QSXoyC8jodech
+        AOgNx6sBKat0N/9YPv/WeQgA+g/ezgJSVvVem4+i6H9Il8pJfZofbN161HkQgPV18cqdVL75NQ/ItN5p
+        8zHf4jNWliuTv3UBsOaG49S7/yoNjk7qNh5HbTaW1zw4WEQEAJZM6o/nq3ShTcbqLr9L15oX839lAcDM
+        ymcrMzOz2IriNwBRzWrhJqVlAAAAAElFTkSuQmCC
+</value>
+  </data>
   <data name="bunifuPanel1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
         iVBORw0KGgoAAAANSUhEUgAAAC4AAACvCAYAAACCVexKAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8

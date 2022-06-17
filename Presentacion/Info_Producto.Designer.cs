@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Info_Producto));
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties5 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties6 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties7 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties8 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges1 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties9 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties10 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties11 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties12 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges3 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
             this.bunifuLabel1 = new Bunifu.UI.WinForms.BunifuLabel();
             this.bunifuLabel3 = new Bunifu.UI.WinForms.BunifuLabel();
             this.bunifuLabel2 = new Bunifu.UI.WinForms.BunifuLabel();
@@ -43,11 +43,11 @@
             this.bunifuLabel6 = new Bunifu.UI.WinForms.BunifuLabel();
             this.bunifuLabel7 = new Bunifu.UI.WinForms.BunifuLabel();
             this.bunifuLabel8 = new Bunifu.UI.WinForms.BunifuLabel();
-            this.bunifuLabel9 = new Bunifu.UI.WinForms.BunifuLabel();
-            this.bunifuLabel10 = new Bunifu.UI.WinForms.BunifuLabel();
             this.bunifuLabel11 = new Bunifu.UI.WinForms.BunifuLabel();
             this.bunifuLabel12 = new Bunifu.UI.WinForms.BunifuLabel();
             this.bunifuIconButton1 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton();
+            this.bunifuLabel9 = new Bunifu.UI.WinForms.BunifuLabel();
+            this.bunifuLabel10 = new Bunifu.UI.WinForms.BunifuLabel();
             this.SuspendLayout();
             // 
             // bunifuLabel1
@@ -150,26 +150,26 @@
             this.bunifuTextBox5.Modified = false;
             this.bunifuTextBox5.Multiline = true;
             this.bunifuTextBox5.Name = "bunifuTextBox5";
-            stateProperties5.BorderColor = System.Drawing.Color.DodgerBlue;
-            stateProperties5.FillColor = System.Drawing.Color.Empty;
-            stateProperties5.ForeColor = System.Drawing.Color.Empty;
-            stateProperties5.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.bunifuTextBox5.OnActiveState = stateProperties5;
-            stateProperties6.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            stateProperties6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            stateProperties6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            stateProperties6.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.bunifuTextBox5.OnDisabledState = stateProperties6;
-            stateProperties7.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties7.FillColor = System.Drawing.Color.Empty;
-            stateProperties7.ForeColor = System.Drawing.Color.Empty;
-            stateProperties7.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.bunifuTextBox5.OnHoverState = stateProperties7;
-            stateProperties8.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(177)))), ((int)(((byte)(255)))));
-            stateProperties8.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(8)))), ((int)(((byte)(53)))));
-            stateProperties8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(177)))), ((int)(((byte)(255)))));
-            stateProperties8.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.bunifuTextBox5.OnIdleState = stateProperties8;
+            stateProperties9.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties9.FillColor = System.Drawing.Color.Empty;
+            stateProperties9.ForeColor = System.Drawing.Color.Empty;
+            stateProperties9.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.bunifuTextBox5.OnActiveState = stateProperties9;
+            stateProperties10.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties10.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties10.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.bunifuTextBox5.OnDisabledState = stateProperties10;
+            stateProperties11.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties11.FillColor = System.Drawing.Color.Empty;
+            stateProperties11.ForeColor = System.Drawing.Color.Empty;
+            stateProperties11.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.bunifuTextBox5.OnHoverState = stateProperties11;
+            stateProperties12.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(177)))), ((int)(((byte)(255)))));
+            stateProperties12.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(8)))), ((int)(((byte)(53)))));
+            stateProperties12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(177)))), ((int)(((byte)(255)))));
+            stateProperties12.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.bunifuTextBox5.OnIdleState = stateProperties12;
             this.bunifuTextBox5.Padding = new System.Windows.Forms.Padding(3);
             this.bunifuTextBox5.PasswordChar = '\0';
             this.bunifuTextBox5.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(59)))), ((int)(((byte)(93)))));
@@ -255,38 +255,6 @@
             this.bunifuLabel8.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
             this.bunifuLabel8.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
-            // bunifuLabel9
-            // 
-            this.bunifuLabel9.AllowParentOverrides = false;
-            this.bunifuLabel9.AutoEllipsis = false;
-            this.bunifuLabel9.CursorType = null;
-            this.bunifuLabel9.Font = new System.Drawing.Font("Lato", 14.25F);
-            this.bunifuLabel9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(143)))), ((int)(((byte)(219)))));
-            this.bunifuLabel9.Location = new System.Drawing.Point(37, 371);
-            this.bunifuLabel9.Name = "bunifuLabel9";
-            this.bunifuLabel9.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel9.Size = new System.Drawing.Size(96, 23);
-            this.bunifuLabel9.TabIndex = 38;
-            this.bunifuLabel9.Text = "Descuento:";
-            this.bunifuLabel9.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.bunifuLabel9.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
-            // 
-            // bunifuLabel10
-            // 
-            this.bunifuLabel10.AllowParentOverrides = false;
-            this.bunifuLabel10.AutoEllipsis = false;
-            this.bunifuLabel10.CursorType = null;
-            this.bunifuLabel10.Font = new System.Drawing.Font("Lato", 14.25F);
-            this.bunifuLabel10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(143)))), ((int)(((byte)(219)))));
-            this.bunifuLabel10.Location = new System.Drawing.Point(148, 371);
-            this.bunifuLabel10.Name = "bunifuLabel10";
-            this.bunifuLabel10.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.bunifuLabel10.Size = new System.Drawing.Size(91, 23);
-            this.bunifuLabel10.TabIndex = 39;
-            this.bunifuLabel10.Text = "Descuento";
-            this.bunifuLabel10.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
-            this.bunifuLabel10.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
-            // 
             // bunifuLabel11
             // 
             this.bunifuLabel11.AllowParentOverrides = false;
@@ -294,7 +262,7 @@
             this.bunifuLabel11.CursorType = null;
             this.bunifuLabel11.Font = new System.Drawing.Font("Lato", 14.25F);
             this.bunifuLabel11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(143)))), ((int)(((byte)(219)))));
-            this.bunifuLabel11.Location = new System.Drawing.Point(37, 421);
+            this.bunifuLabel11.Location = new System.Drawing.Point(37, 371);
             this.bunifuLabel11.Name = "bunifuLabel11";
             this.bunifuLabel11.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel11.Size = new System.Drawing.Size(99, 23);
@@ -310,7 +278,7 @@
             this.bunifuLabel12.CursorType = null;
             this.bunifuLabel12.Font = new System.Drawing.Font("Lato", 14.25F);
             this.bunifuLabel12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(143)))), ((int)(((byte)(219)))));
-            this.bunifuLabel12.Location = new System.Drawing.Point(148, 421);
+            this.bunifuLabel12.Location = new System.Drawing.Point(148, 371);
             this.bunifuLabel12.Name = "bunifuLabel12";
             this.bunifuLabel12.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.bunifuLabel12.Size = new System.Drawing.Size(11, 23);
@@ -334,11 +302,11 @@
             this.bunifuIconButton1.ColorContrastOnClick = 30;
             this.bunifuIconButton1.ColorContrastOnHover = 30;
             this.bunifuIconButton1.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges1.BottomLeft = true;
-            borderEdges1.BottomRight = true;
-            borderEdges1.TopLeft = true;
-            borderEdges1.TopRight = true;
-            this.bunifuIconButton1.CustomizableEdges = borderEdges1;
+            borderEdges3.BottomLeft = true;
+            borderEdges3.BottomRight = true;
+            borderEdges3.TopLeft = true;
+            borderEdges3.TopRight = true;
+            this.bunifuIconButton1.CustomizableEdges = borderEdges3;
             this.bunifuIconButton1.DialogResult = System.Windows.Forms.DialogResult.None;
             this.bunifuIconButton1.Image = global::Presentacion.Properties.Resources.icons8_x_100_1_;
             this.bunifuIconButton1.ImageMargin = new System.Windows.Forms.Padding(0);
@@ -349,18 +317,51 @@
             this.bunifuIconButton1.Size = new System.Drawing.Size(35, 35);
             this.bunifuIconButton1.Style = Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.ButtonStyles.Round;
             this.bunifuIconButton1.TabIndex = 42;
+            this.bunifuIconButton1.Click += new System.EventHandler(this.bunifuIconButton1_Click);
+            // 
+            // bunifuLabel9
+            // 
+            this.bunifuLabel9.AllowParentOverrides = false;
+            this.bunifuLabel9.AutoEllipsis = false;
+            this.bunifuLabel9.CursorType = null;
+            this.bunifuLabel9.Font = new System.Drawing.Font("Lato", 14.25F);
+            this.bunifuLabel9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(143)))), ((int)(((byte)(219)))));
+            this.bunifuLabel9.Location = new System.Drawing.Point(37, 421);
+            this.bunifuLabel9.Name = "bunifuLabel9";
+            this.bunifuLabel9.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel9.Size = new System.Drawing.Size(84, 23);
+            this.bunifuLabel9.TabIndex = 43;
+            this.bunifuLabel9.Text = "Categoria";
+            this.bunifuLabel9.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel9.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            // 
+            // bunifuLabel10
+            // 
+            this.bunifuLabel10.AllowParentOverrides = false;
+            this.bunifuLabel10.AutoEllipsis = false;
+            this.bunifuLabel10.CursorType = null;
+            this.bunifuLabel10.Font = new System.Drawing.Font("Lato", 14.25F);
+            this.bunifuLabel10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(143)))), ((int)(((byte)(219)))));
+            this.bunifuLabel10.Location = new System.Drawing.Point(143, 421);
+            this.bunifuLabel10.Name = "bunifuLabel10";
+            this.bunifuLabel10.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.bunifuLabel10.Size = new System.Drawing.Size(84, 23);
+            this.bunifuLabel10.TabIndex = 44;
+            this.bunifuLabel10.Text = "Categoria";
+            this.bunifuLabel10.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
+            this.bunifuLabel10.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
             // 
             // Info_Producto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(12)))), ((int)(((byte)(70)))));
-            this.ClientSize = new System.Drawing.Size(472, 477);
+            this.ClientSize = new System.Drawing.Size(472, 468);
+            this.Controls.Add(this.bunifuLabel10);
+            this.Controls.Add(this.bunifuLabel9);
             this.Controls.Add(this.bunifuIconButton1);
             this.Controls.Add(this.bunifuLabel12);
             this.Controls.Add(this.bunifuLabel11);
-            this.Controls.Add(this.bunifuLabel10);
-            this.Controls.Add(this.bunifuLabel9);
             this.Controls.Add(this.bunifuLabel8);
             this.Controls.Add(this.bunifuLabel7);
             this.Controls.Add(this.bunifuLabel6);
@@ -372,7 +373,9 @@
             this.Controls.Add(this.bunifuLabel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Info_Producto";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Info_Producto";
+            this.Load += new System.EventHandler(this.Info_Producto_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -389,10 +392,10 @@
         private Bunifu.UI.WinForms.BunifuLabel bunifuLabel6;
         private Bunifu.UI.WinForms.BunifuLabel bunifuLabel7;
         private Bunifu.UI.WinForms.BunifuLabel bunifuLabel8;
-        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel9;
-        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel10;
         private Bunifu.UI.WinForms.BunifuLabel bunifuLabel11;
         private Bunifu.UI.WinForms.BunifuLabel bunifuLabel12;
         private Bunifu.UI.WinForms.BunifuButton.BunifuIconButton bunifuIconButton1;
+        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel9;
+        private Bunifu.UI.WinForms.BunifuLabel bunifuLabel10;
     }
 }

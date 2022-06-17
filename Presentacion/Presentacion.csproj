@@ -211,6 +211,27 @@
     <Compile Include="Contenedor.Designer.cs">
       <DependentUpon>Contenedor.cs</DependentUpon>
     </Compile>
+    <Compile Include="DataSet_C.cs">
+      <DependentUpon>DataSet_C.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet_C.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet_C.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet_ic.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet_ic.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet_iv.cs">
+      <DependentUpon>DataSet_iv.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataSet_iv.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet_iv.xsd</DependentUpon>
+    </Compile>
     <Compile Include="Descuentos.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -303,7 +324,19 @@
     <Compile Include="Report1.Designer.cs">
       <DependentUpon>Report1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Seleccionar_cliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Seleccionar_cliente.designer.cs">
+      <DependentUpon>Seleccionar_cliente.cs</DependentUpon>
+    </Compile>
     <Compile Include="SqlServerTypes\Loader.cs" />
+    <Compile Include="Usuarios.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Usuarios.designer.cs">
+      <DependentUpon>Usuarios.cs</DependentUpon>
+    </Compile>
     <Compile Include="Ventas.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -355,6 +388,7 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Informe_cd.rdlc" />
     <EmbeddedResource Include="Info_Producto.resx">
       <DependentUpon>Info_Producto.cs</DependentUpon>
     </EmbeddedResource>
@@ -384,9 +418,50 @@
     <EmbeddedResource Include="Report1.resx">
       <DependentUpon>Report1.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Report2.rdlc" />
+    <EmbeddedResource Include="Report3.rdlc" />
+    <EmbeddedResource Include="Seleccionar_cliente.resx">
+      <DependentUpon>Seleccionar_cliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Usuarios.resx">
+      <DependentUpon>Usuarios.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Ventas.resx">
       <DependentUpon>Ventas.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="DataSet_C.xsc">
+      <DependentUpon>DataSet_C.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet_C.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet_C.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet_C.xss">
+      <DependentUpon>DataSet_C.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet_ic.xsc">
+      <DependentUpon>DataSet_ic.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet_ic.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet_ic.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet_ic.xss">
+      <DependentUpon>DataSet_ic.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet_iv.xsc">
+      <DependentUpon>DataSet_iv.xsd</DependentUpon>
+    </None>
+    <None Include="DataSet_iv.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet_iv.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSet_iv.xss">
+      <DependentUpon>DataSet_iv.xsd</DependentUpon>
+    </None>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -549,6 +624,7 @@
     <None Include="Resources\report %282%291.png" />
     <None Include="Resources\report.png" />
     <None Include="Resources\report %281%29.png" />
+    <None Include="Resources\app.png" />
     <Content Include="SqlServerTypes\readme.htm" />
     <Content Include="SqlServerTypes\x64\msvcr120.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

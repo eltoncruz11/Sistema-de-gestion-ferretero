@@ -39,6 +39,7 @@
             // 
             // reportViewer1
             // 
+            this.reportViewer1.LocalReport.ReportEmbeddedResource = "Presentacion.Report2.rdlc";
             this.reportViewer1.Location = new System.Drawing.Point(-3, 98);
             this.reportViewer1.Name = "reportViewer1";
             this.reportViewer1.ServerReport.BearerToken = null;
@@ -56,7 +57,7 @@
             this.guna2DateTimePicker1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(8)))), ((int)(((byte)(53)))));
             this.guna2DateTimePicker1.Font = new System.Drawing.Font("Lato", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2DateTimePicker1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(143)))), ((int)(((byte)(219)))));
-            this.guna2DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Long;
+            this.guna2DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.guna2DateTimePicker1.HoverState.Parent = this.guna2DateTimePicker1;
             this.guna2DateTimePicker1.Location = new System.Drawing.Point(37, 40);
             this.guna2DateTimePicker1.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
@@ -95,7 +96,7 @@
             this.guna2DateTimePicker2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(8)))), ((int)(((byte)(53)))));
             this.guna2DateTimePicker2.Font = new System.Drawing.Font("Lato", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2DateTimePicker2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(143)))), ((int)(((byte)(219)))));
-            this.guna2DateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Long;
+            this.guna2DateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.guna2DateTimePicker2.HoverState.Parent = this.guna2DateTimePicker2;
             this.guna2DateTimePicker2.Location = new System.Drawing.Point(281, 40);
             this.guna2DateTimePicker2.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
@@ -138,6 +139,7 @@
             this.guna2Button1.Size = new System.Drawing.Size(168, 73);
             this.guna2Button1.TabIndex = 31;
             this.guna2Button1.Text = "Generar informe de Ingresos";
+            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
             // Report
             // 

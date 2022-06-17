@@ -135,24 +135,6 @@
   <data name="bunifuLabel3.BaseStylesheet" xml:space="preserve">
     <value>#bunifu-label { padding: 0px; font-family: 'Tahoma'; font-size: 18pt; width: 100%; height: 100%; font-style: normal; font-weight: normal; text-decoration: none; color: rgb(153, 143, 219); text-align: left; }</value>
   </data>
-  <metadata name="Column1.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Column2.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Column3.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Column4.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Column5.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="Column6.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="bunifuTextBox1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -170,8 +152,8 @@
   </data>
   <data name="bunifuPanel1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAAC4AAAEuCAYAAADxziCDAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAQCSURBVHhe7dY/SNRhHMfxGxuCIriffzJNJNNUuIogaKil
+        iVBORw0KGgoAAAANSUhEUgAAAC4AAAEwCAYAAADIEkNoAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAQESURBVHhe7dY/SNRhHMfxGxuCIriffzJNJNNUuIogaKil
         KAiKCKohctTFHBykIaShGmqoxUkiGhyCfnciRJNTNDSESy1B0GJTDQ3W0PP0+/7uuTPzKansfYd8Hngj
         /c7nudfvued+Vtj0o23O97Wk/ljWcEvFT21kSdmN2NrF1JfC2/3b2Jb67WHhN9lPj1R2Sy0VN20bFRh/
         NooVd7K6SHXBttnPvvP2ou+eXPB7rjza0LonnuVrt898qN9AtlnL9ukGzvrDdjmZcw9qC+y6+9rvOzrl
@@ -183,12 +165,12 @@
         OJ3gdILTCU4nOJ3gdILTCU4nOJ3gdILTCU4nOJ3gdILTCU4nOJ3gdILTCU4nOJ3gdILTCU4nOJ3gdILT
         CU4nOJ3gdILTCU4nOJ3gdILTCU4nOJ3gdILTCU4nOJ3gdILTCU4nOJ3gdILTCU4nOJ3gdILTCU4nOJ3g
         dILTCU4nOJ3gdILTCU4nOJ3gdILTCU4nOJ3gdILTCU4nOJ3gdILTCU4nOJ3gdILTCU4nOJ3gdILTCU4n
-        OJ3gdILTCU4nOJ3gdILTCU4nOJ3gdILTCU4nOJ3gdILTCU63yeBlP2kXe0afRCc1Q3vPT8fg7qJd7J54
-        Fp3UDPVemonAU3/MLu66/zY6qRnqGZuvwlM/HNiFQteC35KU3bK9UNp9OTqx0bXPfMjhxdSXArs6koqb
-        tRfszmITG1n/qTs5OjO+C9yVkV08nH8UWYOHJqILNCI7AW2zn10OL7uRwF09shfzx2L7w49+f3IuuhBd
-        5+3F6tkuu6eBuXbYWW+puFf2izun3/uh0tXoYkSljgu+68bLGnqpOO9bAzM+2uZ8X/aRvMknZNljKLbw
-        /6z/+M368cg28lOx4k4G3u/HttRvT+bcgxrejo494+2vl31R7OdGZmvaBtkfQPuka+9rx2PdnY4Nu1P7
-        JtcXwnKfktSNB8bfD3t2hv8W2Jf3v2ZPt/C2m3EUCt8BaH9TLxnCrdsAAAAASUVORK5CYII=
+        OJ3gdILTCU4nOJ3gdILTCU4nOJ3gdILTCU4nOJ3gdILTCU4nON0mg5f9pF3sGX0SndQM7T0/HYO7i3ax
+        e+JZdFIz1HtpJgJP/TG7uOv+2+ikZqhnbL4KT/1wYBcKXQt+S1J2y/ZCaffl6MRG1z7zIYcXU18K7OpI
+        Km7WXrA7i01sZP2n7uTozPgucFdGdvFw/lFkDR6aiC7QiOwEtM1+djm87EYCd/XIXswfi+0PP/r9ybno
+        QnSdtxerZ7vsngbm2mFnvaXiXtkv7px+74dKV6OLEZU6LviuGy9r6KXivG8NzPhom/N92UfyJp+QZY+h
+        2ML/s/7jN+vHI9vIT8WKOxl4vx/bUr89mXMPang7OvaMt79e9kWxnxuZrWkbZH8A7ZOuva8dj3V3Ojbs
+        Tu2bXF8Iy31KUjceGH8/7NkZ/ltgX97/mj3dwttuxlEofAcFAeMrbgIILwAAAABJRU5ErkJggg==
 </value>
   </data>
 </root>

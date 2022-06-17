@@ -12,7 +12,7 @@ namespace Enlace_datos
 {
     public class Conexion_BD
     {
-        MySqlConnection Conexion = new MySqlConnection("Server=localhost; Database=sgf;Uid=root;Pwd=rewrite11");
+        MySqlConnection Conexion = new MySqlConnection("Server=localhost; Database=sgf;Uid=root;Pwd=yaderc99");
 
         #region Metodo para abrir conexion
         void Abrir_Conexion()

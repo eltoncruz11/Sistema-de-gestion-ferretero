@@ -23,7 +23,25 @@ namespace Presentacion
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
+            String Men = "";
+            Client.ID = cli.dataGridView1.CurrentRow.Cells[0].Value.ToString();
+            Client.Nombre = bunifuTextBox1.Text.ToString();
+            Client.Apellido = bunifuTextBox2.Text.ToString();
+            Client.Contacto = bunifuTextBox3.Text.ToString();
+            Client.Direccion = bunifuTextBox4.Text.ToString();
 
+            Men = Client.Editar();
+
+            MessageBox.Show(Men, "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            cli.Listar();
+
+            if (Men == "Los datos se actualizaron exitosamente")
+            {
+
+                this.Close();
+            }
+        
         }
 
         private void Editar_Client_Load(object sender, EventArgs e)

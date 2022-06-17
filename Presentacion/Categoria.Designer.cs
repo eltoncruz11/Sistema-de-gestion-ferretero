@@ -29,33 +29,33 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Categoria));
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties1 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties2 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties3 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties4 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties5 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties6 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties7 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties8 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties25 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties26 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties27 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties28 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties29 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties30 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties31 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties32 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle10 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle11 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle12 = new System.Windows.Forms.DataGridViewCellStyle();
+            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges4 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
             this.bunifuLabel1 = new Bunifu.UI.WinForms.BunifuLabel();
             this.bunifuTextBox5 = new Bunifu.UI.WinForms.BunifuTextBox();
-            this.guna2GradientPanel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.Panel1 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2GradientPanel2 = new Guna.UI2.WinForms.Guna2GradientPanel();
+            this.Panel2 = new Guna.UI2.WinForms.Guna2GradientPanel();
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             this.bunifuTextBox1 = new Bunifu.UI.WinForms.BunifuTextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.bunifuPanel2 = new Bunifu.UI.WinForms.BunifuPanel();
             this.guna2CirclePictureBox2 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2CirclePictureBox1 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
             this.guna2CirclePictureBox5 = new Guna.UI2.WinForms.Guna2CirclePictureBox();
-            this.guna2GradientPanel1.SuspendLayout();
-            this.guna2GradientPanel2.SuspendLayout();
+            this.bunifuIconButton1 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton();
+            this.Panel1.SuspendLayout();
+            this.Panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.bunifuPanel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox2)).BeginInit();
@@ -115,26 +115,26 @@
             this.bunifuTextBox5.Modified = false;
             this.bunifuTextBox5.Multiline = false;
             this.bunifuTextBox5.Name = "bunifuTextBox5";
-            stateProperties1.BorderColor = System.Drawing.Color.DodgerBlue;
-            stateProperties1.FillColor = System.Drawing.Color.Empty;
-            stateProperties1.ForeColor = System.Drawing.Color.Empty;
-            stateProperties1.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.bunifuTextBox5.OnActiveState = stateProperties1;
-            stateProperties2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            stateProperties2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            stateProperties2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            stateProperties2.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.bunifuTextBox5.OnDisabledState = stateProperties2;
-            stateProperties3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties3.FillColor = System.Drawing.Color.Empty;
-            stateProperties3.ForeColor = System.Drawing.Color.Empty;
-            stateProperties3.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.bunifuTextBox5.OnHoverState = stateProperties3;
-            stateProperties4.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(177)))), ((int)(((byte)(255)))));
-            stateProperties4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(8)))), ((int)(((byte)(53)))));
-            stateProperties4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(177)))), ((int)(((byte)(255)))));
-            stateProperties4.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.bunifuTextBox5.OnIdleState = stateProperties4;
+            stateProperties25.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties25.FillColor = System.Drawing.Color.Empty;
+            stateProperties25.ForeColor = System.Drawing.Color.Empty;
+            stateProperties25.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.bunifuTextBox5.OnActiveState = stateProperties25;
+            stateProperties26.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties26.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties26.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties26.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.bunifuTextBox5.OnDisabledState = stateProperties26;
+            stateProperties27.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties27.FillColor = System.Drawing.Color.Empty;
+            stateProperties27.ForeColor = System.Drawing.Color.Empty;
+            stateProperties27.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.bunifuTextBox5.OnHoverState = stateProperties27;
+            stateProperties28.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(177)))), ((int)(((byte)(255)))));
+            stateProperties28.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(8)))), ((int)(((byte)(53)))));
+            stateProperties28.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(177)))), ((int)(((byte)(255)))));
+            stateProperties28.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.bunifuTextBox5.OnIdleState = stateProperties28;
             this.bunifuTextBox5.Padding = new System.Windows.Forms.Padding(3);
             this.bunifuTextBox5.PasswordChar = '\0';
             this.bunifuTextBox5.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(59)))), ((int)(((byte)(93)))));
@@ -156,17 +156,18 @@
             this.bunifuTextBox5.UseSystemPasswordChar = false;
             this.bunifuTextBox5.WordWrap = true;
             // 
-            // guna2GradientPanel1
+            // Panel1
             // 
-            this.guna2GradientPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.guna2GradientPanel1.BorderRadius = 10;
-            this.guna2GradientPanel1.Controls.Add(this.guna2Button1);
-            this.guna2GradientPanel1.Controls.Add(this.bunifuTextBox5);
-            this.guna2GradientPanel1.Location = new System.Drawing.Point(79, 83);
-            this.guna2GradientPanel1.Name = "guna2GradientPanel1";
-            this.guna2GradientPanel1.ShadowDecoration.Parent = this.guna2GradientPanel1;
-            this.guna2GradientPanel1.Size = new System.Drawing.Size(365, 72);
-            this.guna2GradientPanel1.TabIndex = 20;
+            this.Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.Panel1.BorderRadius = 10;
+            this.Panel1.Controls.Add(this.guna2Button1);
+            this.Panel1.Controls.Add(this.bunifuTextBox5);
+            this.Panel1.Enabled = false;
+            this.Panel1.Location = new System.Drawing.Point(79, 83);
+            this.Panel1.Name = "Panel1";
+            this.Panel1.ShadowDecoration.Parent = this.Panel1;
+            this.Panel1.Size = new System.Drawing.Size(365, 72);
+            this.Panel1.TabIndex = 20;
             // 
             // guna2Button1
             // 
@@ -182,18 +183,20 @@
             this.guna2Button1.Size = new System.Drawing.Size(74, 35);
             this.guna2Button1.TabIndex = 20;
             this.guna2Button1.Text = "Ingresar";
+            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
-            // guna2GradientPanel2
+            // Panel2
             // 
-            this.guna2GradientPanel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            this.guna2GradientPanel2.BorderRadius = 10;
-            this.guna2GradientPanel2.Controls.Add(this.guna2Button2);
-            this.guna2GradientPanel2.Controls.Add(this.bunifuTextBox1);
-            this.guna2GradientPanel2.Location = new System.Drawing.Point(79, 171);
-            this.guna2GradientPanel2.Name = "guna2GradientPanel2";
-            this.guna2GradientPanel2.ShadowDecoration.Parent = this.guna2GradientPanel2;
-            this.guna2GradientPanel2.Size = new System.Drawing.Size(365, 72);
-            this.guna2GradientPanel2.TabIndex = 21;
+            this.Panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.Panel2.BorderRadius = 10;
+            this.Panel2.Controls.Add(this.guna2Button2);
+            this.Panel2.Controls.Add(this.bunifuTextBox1);
+            this.Panel2.Enabled = false;
+            this.Panel2.Location = new System.Drawing.Point(79, 171);
+            this.Panel2.Name = "Panel2";
+            this.Panel2.ShadowDecoration.Parent = this.Panel2;
+            this.Panel2.Size = new System.Drawing.Size(365, 72);
+            this.Panel2.TabIndex = 21;
             // 
             // guna2Button2
             // 
@@ -209,6 +212,7 @@
             this.guna2Button2.Size = new System.Drawing.Size(74, 35);
             this.guna2Button2.TabIndex = 20;
             this.guna2Button2.Text = "Editar";
+            this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
             // 
             // bunifuTextBox1
             // 
@@ -245,26 +249,26 @@
             this.bunifuTextBox1.Modified = false;
             this.bunifuTextBox1.Multiline = false;
             this.bunifuTextBox1.Name = "bunifuTextBox1";
-            stateProperties5.BorderColor = System.Drawing.Color.DodgerBlue;
-            stateProperties5.FillColor = System.Drawing.Color.Empty;
-            stateProperties5.ForeColor = System.Drawing.Color.Empty;
-            stateProperties5.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.bunifuTextBox1.OnActiveState = stateProperties5;
-            stateProperties6.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            stateProperties6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            stateProperties6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            stateProperties6.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.bunifuTextBox1.OnDisabledState = stateProperties6;
-            stateProperties7.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties7.FillColor = System.Drawing.Color.Empty;
-            stateProperties7.ForeColor = System.Drawing.Color.Empty;
-            stateProperties7.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.bunifuTextBox1.OnHoverState = stateProperties7;
-            stateProperties8.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(177)))), ((int)(((byte)(255)))));
-            stateProperties8.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(8)))), ((int)(((byte)(53)))));
-            stateProperties8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(177)))), ((int)(((byte)(255)))));
-            stateProperties8.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.bunifuTextBox1.OnIdleState = stateProperties8;
+            stateProperties29.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties29.FillColor = System.Drawing.Color.Empty;
+            stateProperties29.ForeColor = System.Drawing.Color.Empty;
+            stateProperties29.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.bunifuTextBox1.OnActiveState = stateProperties29;
+            stateProperties30.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties30.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties30.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties30.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.bunifuTextBox1.OnDisabledState = stateProperties30;
+            stateProperties31.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties31.FillColor = System.Drawing.Color.Empty;
+            stateProperties31.ForeColor = System.Drawing.Color.Empty;
+            stateProperties31.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.bunifuTextBox1.OnHoverState = stateProperties31;
+            stateProperties32.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(177)))), ((int)(((byte)(255)))));
+            stateProperties32.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(8)))), ((int)(((byte)(53)))));
+            stateProperties32.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(177)))), ((int)(((byte)(255)))));
+            stateProperties32.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.bunifuTextBox1.OnIdleState = stateProperties32;
             this.bunifuTextBox1.Padding = new System.Windows.Forms.Padding(3);
             this.bunifuTextBox1.PasswordChar = '\0';
             this.bunifuTextBox1.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(59)))), ((int)(((byte)(93)))));
@@ -288,58 +292,47 @@
             // 
             // dataGridView1
             // 
+            this.dataGridView1.AllowUserToAddRows = false;
+            this.dataGridView1.AllowUserToDeleteRows = false;
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
             this.dataGridView1.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.dataGridView1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(12)))), ((int)(((byte)(70)))));
             this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.dataGridView1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.DodgerBlue;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Lato", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle10.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle10.BackColor = System.Drawing.Color.DodgerBlue;
+            dataGridViewCellStyle10.Font = new System.Drawing.Font("Lato", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle10.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle10.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle10.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle10.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle10;
             this.dataGridView1.ColumnHeadersHeight = 32;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.DisableResizing;
-            this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Column1,
-            this.Column3});
             this.dataGridView1.EnableHeadersVisualStyles = false;
             this.dataGridView1.GridColor = System.Drawing.Color.DodgerBlue;
             this.dataGridView1.ImeMode = System.Windows.Forms.ImeMode.On;
             this.dataGridView1.Location = new System.Drawing.Point(12, 262);
             this.dataGridView1.Name = "dataGridView1";
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(8)))), ((int)(((byte)(53)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Lato", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.Info;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            this.dataGridView1.ReadOnly = true;
+            dataGridViewCellStyle11.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(8)))), ((int)(((byte)(53)))));
+            dataGridViewCellStyle11.Font = new System.Drawing.Font("Lato", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle11.ForeColor = System.Drawing.SystemColors.Info;
+            dataGridViewCellStyle11.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle11.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle11.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle11;
             this.dataGridView1.RowHeadersVisible = false;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(12)))), ((int)(((byte)(70)))));
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Lato", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(143)))), ((int)(((byte)(219)))));
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.Magenta;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.dataGridView1.RowsDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(12)))), ((int)(((byte)(70)))));
+            dataGridViewCellStyle12.Font = new System.Drawing.Font("Lato", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(143)))), ((int)(((byte)(219)))));
+            dataGridViewCellStyle12.SelectionBackColor = System.Drawing.Color.Magenta;
+            dataGridViewCellStyle12.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.dataGridView1.RowsDefaultCellStyle = dataGridViewCellStyle12;
+            this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dataGridView1.Size = new System.Drawing.Size(460, 270);
             this.dataGridView1.TabIndex = 22;
-            // 
-            // Column1
-            // 
-            this.Column1.HeaderText = "ID";
-            this.Column1.Name = "Column1";
-            this.Column1.Width = 53;
-            // 
-            // Column3
-            // 
-            this.Column3.HeaderText = "Nombre";
-            this.Column3.Name = "Column3";
-            this.Column3.Width = 103;
             // 
             // bunifuPanel2
             // 
@@ -370,6 +363,7 @@
             this.guna2CirclePictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2CirclePictureBox2.TabIndex = 26;
             this.guna2CirclePictureBox2.TabStop = false;
+            this.guna2CirclePictureBox2.Click += new System.EventHandler(this.guna2CirclePictureBox2_Click);
             // 
             // guna2CirclePictureBox1
             // 
@@ -383,6 +377,7 @@
             this.guna2CirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2CirclePictureBox1.TabIndex = 25;
             this.guna2CirclePictureBox1.TabStop = false;
+            this.guna2CirclePictureBox1.Click += new System.EventHandler(this.guna2CirclePictureBox1_Click);
             // 
             // guna2CirclePictureBox5
             // 
@@ -396,6 +391,39 @@
             this.guna2CirclePictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.guna2CirclePictureBox5.TabIndex = 24;
             this.guna2CirclePictureBox5.TabStop = false;
+            this.guna2CirclePictureBox5.Click += new System.EventHandler(this.guna2CirclePictureBox5_Click);
+            // 
+            // bunifuIconButton1
+            // 
+            this.bunifuIconButton1.AllowAnimations = true;
+            this.bunifuIconButton1.AllowBorderColorChanges = true;
+            this.bunifuIconButton1.AllowMouseEffects = true;
+            this.bunifuIconButton1.AnimationSpeed = 200;
+            this.bunifuIconButton1.BackColor = System.Drawing.Color.Transparent;
+            this.bunifuIconButton1.BackgroundColor = System.Drawing.Color.DodgerBlue;
+            this.bunifuIconButton1.BorderColor = System.Drawing.Color.DodgerBlue;
+            this.bunifuIconButton1.BorderRadius = 1;
+            this.bunifuIconButton1.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderStyles.Solid;
+            this.bunifuIconButton1.BorderThickness = 1;
+            this.bunifuIconButton1.ColorContrastOnClick = 30;
+            this.bunifuIconButton1.ColorContrastOnHover = 30;
+            this.bunifuIconButton1.Cursor = System.Windows.Forms.Cursors.Default;
+            borderEdges4.BottomLeft = true;
+            borderEdges4.BottomRight = true;
+            borderEdges4.TopLeft = true;
+            borderEdges4.TopRight = true;
+            this.bunifuIconButton1.CustomizableEdges = borderEdges4;
+            this.bunifuIconButton1.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.bunifuIconButton1.Image = global::Presentacion.Properties.Resources.icons8_x_100_1_;
+            this.bunifuIconButton1.ImageMargin = new System.Windows.Forms.Padding(0);
+            this.bunifuIconButton1.Location = new System.Drawing.Point(510, 3);
+            this.bunifuIconButton1.Name = "bunifuIconButton1";
+            this.bunifuIconButton1.RoundBorders = true;
+            this.bunifuIconButton1.ShowBorders = true;
+            this.bunifuIconButton1.Size = new System.Drawing.Size(35, 35);
+            this.bunifuIconButton1.Style = Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.ButtonStyles.Round;
+            this.bunifuIconButton1.TabIndex = 43;
+            this.bunifuIconButton1.Click += new System.EventHandler(this.bunifuIconButton1_Click);
             // 
             // Categoria
             // 
@@ -403,16 +431,19 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(12)))), ((int)(((byte)(70)))));
             this.ClientSize = new System.Drawing.Size(548, 557);
+            this.Controls.Add(this.bunifuIconButton1);
             this.Controls.Add(this.bunifuPanel2);
             this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.guna2GradientPanel2);
-            this.Controls.Add(this.guna2GradientPanel1);
+            this.Controls.Add(this.Panel2);
+            this.Controls.Add(this.Panel1);
             this.Controls.Add(this.bunifuLabel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Categoria";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Categoria";
-            this.guna2GradientPanel1.ResumeLayout(false);
-            this.guna2GradientPanel2.ResumeLayout(false);
+            this.Load += new System.EventHandler(this.Categoria_Load);
+            this.Panel1.ResumeLayout(false);
+            this.Panel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.bunifuPanel2.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.guna2CirclePictureBox2)).EndInit();
@@ -427,17 +458,16 @@
 
         private Bunifu.UI.WinForms.BunifuLabel bunifuLabel1;
         private Bunifu.UI.WinForms.BunifuTextBox bunifuTextBox5;
-        private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel1;
+        private Guna.UI2.WinForms.Guna2GradientPanel Panel1;
         private Guna.UI2.WinForms.Guna2Button guna2Button1;
-        private Guna.UI2.WinForms.Guna2GradientPanel guna2GradientPanel2;
+        private Guna.UI2.WinForms.Guna2GradientPanel Panel2;
         private Guna.UI2.WinForms.Guna2Button guna2Button2;
         private Bunifu.UI.WinForms.BunifuTextBox bunifuTextBox1;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
         private Bunifu.UI.WinForms.BunifuPanel bunifuPanel2;
         private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox2;
         private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox1;
         private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox5;
+        private Bunifu.UI.WinForms.BunifuButton.BunifuIconButton bunifuIconButton1;
     }
 }

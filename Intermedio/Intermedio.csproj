@@ -148,8 +148,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Categoria.cs" />
     <Compile Include="Clientes.cs" />
+    <Compile Include="Compra.cs" />
+    <Compile Include="Descuento.cs" />
+    <Compile Include="Informes.cs" />
+    <Compile Include="Inventario.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Proveedores.cs" />
+    <Compile Include="Users.cs" />
+    <Compile Include="Ventas_ct_cd.cs" />
     <Service Include="{94E38DFF-614B-4cbd-B67C-F211BB35CE8B}" />
   </ItemGroup>
   <ItemGroup>

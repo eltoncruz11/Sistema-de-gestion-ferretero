@@ -49,5 +49,40 @@ namespace Presentacion
             Editar_Client Client = new Editar_Client(this);
             Client.ShowDialog();
         }
+
+        private void guna2CirclePictureBox2_Click(object sender, EventArgs e)
+        {
+            DialogResult R;
+
+            R = MessageBox.Show("Esta seguro que desea eliminar a este cliente","Verificacion",MessageBoxButtons.YesNo,MessageBoxIcon.Warning);
+
+            if (R == DialogResult.Yes)
+            {
+                Clien.ID = dataGridView1.CurrentRow.Cells[0].Value.ToString();
+                Clien.Eliminar();
+                Listar();
+
+            }
+        }
+
+        private void guna2CirclePictureBox4_Click(object sender, EventArgs e)
+        {
+            Deuda_clientes Deu = new Deuda_clientes(dataGridView1.CurrentRow.Cells[0].Value.ToString());
+            Deu.ShowDialog();
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+            Deudas_clientes D = new Deudas_clientes();
+            D.ShowDialog();
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            DataTable dt = new DataTable();
+            dt =Clien.Buscar(bunifuTextBox1.Text,guna2ComboBox1.SelectedIndex);
+            dataGridView1.DataSource = dt;
+        }
     }
 }

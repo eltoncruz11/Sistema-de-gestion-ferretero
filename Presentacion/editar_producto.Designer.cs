@@ -29,23 +29,23 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(editar_producto));
-            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges2 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties17 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties18 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties19 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties20 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties21 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties22 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties23 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties24 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties25 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties26 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties27 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties28 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties29 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties30 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties31 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties32 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges borderEdges1 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.BorderEdges();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties1 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties2 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties3 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties4 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties5 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties6 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties7 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties8 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties9 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties10 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties11 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties12 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties13 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties14 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties15 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
+            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties16 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             this.bunifuLabel1 = new Bunifu.UI.WinForms.BunifuLabel();
             this.bunifuIconButton1 = new Bunifu.UI.WinForms.BunifuButton.BunifuIconButton();
             this.bunifuTextBox4 = new Bunifu.UI.WinForms.BunifuTextBox();
@@ -57,6 +57,7 @@
             this.bunifuLabel2 = new Bunifu.UI.WinForms.BunifuLabel();
             this.guna2DateTimePicker1 = new Guna.UI2.WinForms.Guna2DateTimePicker();
             this.bunifuTextBox2 = new Bunifu.UI.WinForms.BunifuTextBox();
+            this.checkBox1 = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // bunifuLabel1
@@ -75,6 +76,7 @@
             this.bunifuLabel1.Text = "Datos Generales";
             this.bunifuLabel1.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
             this.bunifuLabel1.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            this.bunifuLabel1.Click += new System.EventHandler(this.bunifuLabel1_Click);
             // 
             // bunifuIconButton1
             // 
@@ -91,11 +93,11 @@
             this.bunifuIconButton1.ColorContrastOnClick = 30;
             this.bunifuIconButton1.ColorContrastOnHover = 30;
             this.bunifuIconButton1.Cursor = System.Windows.Forms.Cursors.Default;
-            borderEdges2.BottomLeft = true;
-            borderEdges2.BottomRight = true;
-            borderEdges2.TopLeft = true;
-            borderEdges2.TopRight = true;
-            this.bunifuIconButton1.CustomizableEdges = borderEdges2;
+            borderEdges1.BottomLeft = true;
+            borderEdges1.BottomRight = true;
+            borderEdges1.TopLeft = true;
+            borderEdges1.TopRight = true;
+            this.bunifuIconButton1.CustomizableEdges = borderEdges1;
             this.bunifuIconButton1.DialogResult = System.Windows.Forms.DialogResult.None;
             this.bunifuIconButton1.Image = global::Presentacion.Properties.Resources.icons8_x_100_1_;
             this.bunifuIconButton1.ImageMargin = new System.Windows.Forms.Padding(0);
@@ -106,6 +108,7 @@
             this.bunifuIconButton1.Size = new System.Drawing.Size(35, 35);
             this.bunifuIconButton1.Style = Bunifu.UI.WinForms.BunifuButton.BunifuIconButton.ButtonStyles.Round;
             this.bunifuIconButton1.TabIndex = 21;
+            this.bunifuIconButton1.Click += new System.EventHandler(this.bunifuIconButton1_Click);
             // 
             // bunifuTextBox4
             // 
@@ -142,26 +145,26 @@
             this.bunifuTextBox4.Modified = false;
             this.bunifuTextBox4.Multiline = false;
             this.bunifuTextBox4.Name = "bunifuTextBox4";
-            stateProperties17.BorderColor = System.Drawing.Color.DodgerBlue;
-            stateProperties17.FillColor = System.Drawing.Color.Empty;
-            stateProperties17.ForeColor = System.Drawing.Color.Empty;
-            stateProperties17.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.bunifuTextBox4.OnActiveState = stateProperties17;
-            stateProperties18.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            stateProperties18.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            stateProperties18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            stateProperties18.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.bunifuTextBox4.OnDisabledState = stateProperties18;
-            stateProperties19.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties19.FillColor = System.Drawing.Color.Empty;
-            stateProperties19.ForeColor = System.Drawing.Color.Empty;
-            stateProperties19.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.bunifuTextBox4.OnHoverState = stateProperties19;
-            stateProperties20.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(177)))), ((int)(((byte)(255)))));
-            stateProperties20.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(8)))), ((int)(((byte)(53)))));
-            stateProperties20.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(177)))), ((int)(((byte)(255)))));
-            stateProperties20.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.bunifuTextBox4.OnIdleState = stateProperties20;
+            stateProperties1.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties1.FillColor = System.Drawing.Color.Empty;
+            stateProperties1.ForeColor = System.Drawing.Color.Empty;
+            stateProperties1.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.bunifuTextBox4.OnActiveState = stateProperties1;
+            stateProperties2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties2.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.bunifuTextBox4.OnDisabledState = stateProperties2;
+            stateProperties3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties3.FillColor = System.Drawing.Color.Empty;
+            stateProperties3.ForeColor = System.Drawing.Color.Empty;
+            stateProperties3.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.bunifuTextBox4.OnHoverState = stateProperties3;
+            stateProperties4.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(177)))), ((int)(((byte)(255)))));
+            stateProperties4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(8)))), ((int)(((byte)(53)))));
+            stateProperties4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(177)))), ((int)(((byte)(255)))));
+            stateProperties4.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.bunifuTextBox4.OnIdleState = stateProperties4;
             this.bunifuTextBox4.Padding = new System.Windows.Forms.Padding(3);
             this.bunifuTextBox4.PasswordChar = '\0';
             this.bunifuTextBox4.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(59)))), ((int)(((byte)(93)))));
@@ -218,26 +221,26 @@
             this.bunifuTextBox3.Modified = false;
             this.bunifuTextBox3.Multiline = false;
             this.bunifuTextBox3.Name = "bunifuTextBox3";
-            stateProperties21.BorderColor = System.Drawing.Color.DodgerBlue;
-            stateProperties21.FillColor = System.Drawing.Color.Empty;
-            stateProperties21.ForeColor = System.Drawing.Color.Empty;
-            stateProperties21.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.bunifuTextBox3.OnActiveState = stateProperties21;
-            stateProperties22.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            stateProperties22.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            stateProperties22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            stateProperties22.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.bunifuTextBox3.OnDisabledState = stateProperties22;
-            stateProperties23.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties23.FillColor = System.Drawing.Color.Empty;
-            stateProperties23.ForeColor = System.Drawing.Color.Empty;
-            stateProperties23.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.bunifuTextBox3.OnHoverState = stateProperties23;
-            stateProperties24.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(177)))), ((int)(((byte)(255)))));
-            stateProperties24.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(8)))), ((int)(((byte)(53)))));
-            stateProperties24.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(177)))), ((int)(((byte)(255)))));
-            stateProperties24.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.bunifuTextBox3.OnIdleState = stateProperties24;
+            stateProperties5.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties5.FillColor = System.Drawing.Color.Empty;
+            stateProperties5.ForeColor = System.Drawing.Color.Empty;
+            stateProperties5.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.bunifuTextBox3.OnActiveState = stateProperties5;
+            stateProperties6.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties6.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties6.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.bunifuTextBox3.OnDisabledState = stateProperties6;
+            stateProperties7.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties7.FillColor = System.Drawing.Color.Empty;
+            stateProperties7.ForeColor = System.Drawing.Color.Empty;
+            stateProperties7.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.bunifuTextBox3.OnHoverState = stateProperties7;
+            stateProperties8.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(177)))), ((int)(((byte)(255)))));
+            stateProperties8.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(8)))), ((int)(((byte)(53)))));
+            stateProperties8.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(177)))), ((int)(((byte)(255)))));
+            stateProperties8.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.bunifuTextBox3.OnIdleState = stateProperties8;
             this.bunifuTextBox3.Padding = new System.Windows.Forms.Padding(3);
             this.bunifuTextBox3.PasswordChar = '\0';
             this.bunifuTextBox3.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(59)))), ((int)(((byte)(93)))));
@@ -294,26 +297,26 @@
             this.bunifuTextBox1.Modified = false;
             this.bunifuTextBox1.Multiline = false;
             this.bunifuTextBox1.Name = "bunifuTextBox1";
-            stateProperties25.BorderColor = System.Drawing.Color.DodgerBlue;
-            stateProperties25.FillColor = System.Drawing.Color.Empty;
-            stateProperties25.ForeColor = System.Drawing.Color.Empty;
-            stateProperties25.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.bunifuTextBox1.OnActiveState = stateProperties25;
-            stateProperties26.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            stateProperties26.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            stateProperties26.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            stateProperties26.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.bunifuTextBox1.OnDisabledState = stateProperties26;
-            stateProperties27.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties27.FillColor = System.Drawing.Color.Empty;
-            stateProperties27.ForeColor = System.Drawing.Color.Empty;
-            stateProperties27.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.bunifuTextBox1.OnHoverState = stateProperties27;
-            stateProperties28.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(177)))), ((int)(((byte)(255)))));
-            stateProperties28.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(8)))), ((int)(((byte)(53)))));
-            stateProperties28.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(177)))), ((int)(((byte)(255)))));
-            stateProperties28.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.bunifuTextBox1.OnIdleState = stateProperties28;
+            stateProperties9.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties9.FillColor = System.Drawing.Color.Empty;
+            stateProperties9.ForeColor = System.Drawing.Color.Empty;
+            stateProperties9.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.bunifuTextBox1.OnActiveState = stateProperties9;
+            stateProperties10.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties10.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties10.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.bunifuTextBox1.OnDisabledState = stateProperties10;
+            stateProperties11.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties11.FillColor = System.Drawing.Color.Empty;
+            stateProperties11.ForeColor = System.Drawing.Color.Empty;
+            stateProperties11.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.bunifuTextBox1.OnHoverState = stateProperties11;
+            stateProperties12.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(177)))), ((int)(((byte)(255)))));
+            stateProperties12.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(8)))), ((int)(((byte)(53)))));
+            stateProperties12.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(177)))), ((int)(((byte)(255)))));
+            stateProperties12.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.bunifuTextBox1.OnIdleState = stateProperties12;
             this.bunifuTextBox1.Padding = new System.Windows.Forms.Padding(3);
             this.bunifuTextBox1.PasswordChar = '\0';
             this.bunifuTextBox1.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(59)))), ((int)(((byte)(93)))));
@@ -344,12 +347,13 @@
             this.guna2Button1.ForeColor = System.Drawing.Color.White;
             this.guna2Button1.HoverState.Parent = this.guna2Button1;
             this.guna2Button1.Image = global::Presentacion.Properties.Resources.icons8_producto_100;
-            this.guna2Button1.Location = new System.Drawing.Point(204, 406);
+            this.guna2Button1.Location = new System.Drawing.Point(205, 430);
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.ShadowDecoration.Parent = this.guna2Button1;
             this.guna2Button1.Size = new System.Drawing.Size(168, 57);
             this.guna2Button1.TabIndex = 36;
             this.guna2Button1.Text = "Editar Producto";
+            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
             // bunifuLabel3
             // 
@@ -383,8 +387,6 @@
             this.guna2ComboBox1.FormattingEnabled = true;
             this.guna2ComboBox1.HoverState.Parent = this.guna2ComboBox1;
             this.guna2ComboBox1.ItemHeight = 30;
-            this.guna2ComboBox1.Items.AddRange(new object[] {
-            "Categoria"});
             this.guna2ComboBox1.ItemsAppearance.Parent = this.guna2ComboBox1;
             this.guna2ComboBox1.Location = new System.Drawing.Point(310, 340);
             this.guna2ComboBox1.Name = "guna2ComboBox1";
@@ -420,7 +422,7 @@
             this.guna2DateTimePicker1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(8)))), ((int)(((byte)(53)))));
             this.guna2DateTimePicker1.Font = new System.Drawing.Font("Lato", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2DateTimePicker1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(153)))), ((int)(((byte)(143)))), ((int)(((byte)(219)))));
-            this.guna2DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Long;
+            this.guna2DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.guna2DateTimePicker1.HoverState.Parent = this.guna2DateTimePicker1;
             this.guna2DateTimePicker1.Location = new System.Drawing.Point(31, 340);
             this.guna2DateTimePicker1.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
@@ -466,26 +468,26 @@
             this.bunifuTextBox2.Modified = false;
             this.bunifuTextBox2.Multiline = true;
             this.bunifuTextBox2.Name = "bunifuTextBox2";
-            stateProperties29.BorderColor = System.Drawing.Color.DodgerBlue;
-            stateProperties29.FillColor = System.Drawing.Color.Empty;
-            stateProperties29.ForeColor = System.Drawing.Color.Empty;
-            stateProperties29.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.bunifuTextBox2.OnActiveState = stateProperties29;
-            stateProperties30.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            stateProperties30.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            stateProperties30.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            stateProperties30.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.bunifuTextBox2.OnDisabledState = stateProperties30;
-            stateProperties31.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            stateProperties31.FillColor = System.Drawing.Color.Empty;
-            stateProperties31.ForeColor = System.Drawing.Color.Empty;
-            stateProperties31.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.bunifuTextBox2.OnHoverState = stateProperties31;
-            stateProperties32.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(177)))), ((int)(((byte)(255)))));
-            stateProperties32.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(8)))), ((int)(((byte)(53)))));
-            stateProperties32.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(177)))), ((int)(((byte)(255)))));
-            stateProperties32.PlaceholderForeColor = System.Drawing.Color.Empty;
-            this.bunifuTextBox2.OnIdleState = stateProperties32;
+            stateProperties13.BorderColor = System.Drawing.Color.DodgerBlue;
+            stateProperties13.FillColor = System.Drawing.Color.Empty;
+            stateProperties13.ForeColor = System.Drawing.Color.Empty;
+            stateProperties13.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.bunifuTextBox2.OnActiveState = stateProperties13;
+            stateProperties14.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties14.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties14.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.bunifuTextBox2.OnDisabledState = stateProperties14;
+            stateProperties15.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            stateProperties15.FillColor = System.Drawing.Color.Empty;
+            stateProperties15.ForeColor = System.Drawing.Color.Empty;
+            stateProperties15.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.bunifuTextBox2.OnHoverState = stateProperties15;
+            stateProperties16.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(177)))), ((int)(((byte)(255)))));
+            stateProperties16.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(8)))), ((int)(((byte)(53)))));
+            stateProperties16.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(177)))), ((int)(((byte)(255)))));
+            stateProperties16.PlaceholderForeColor = System.Drawing.Color.Empty;
+            this.bunifuTextBox2.OnIdleState = stateProperties16;
             this.bunifuTextBox2.Padding = new System.Windows.Forms.Padding(3);
             this.bunifuTextBox2.PasswordChar = '\0';
             this.bunifuTextBox2.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(59)))), ((int)(((byte)(93)))));
@@ -507,12 +509,26 @@
             this.bunifuTextBox2.UseSystemPasswordChar = false;
             this.bunifuTextBox2.WordWrap = true;
             // 
+            // checkBox1
+            // 
+            this.checkBox1.AutoSize = true;
+            this.checkBox1.Font = new System.Drawing.Font("Lato", 12.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(143)))), ((int)(((byte)(219)))));
+            this.checkBox1.Location = new System.Drawing.Point(57, 392);
+            this.checkBox1.Name = "checkBox1";
+            this.checkBox1.Size = new System.Drawing.Size(144, 25);
+            this.checkBox1.TabIndex = 37;
+            this.checkBox1.Text = "Sin vencimiento";
+            this.checkBox1.UseVisualStyleBackColor = true;
+            this.checkBox1.CheckedChanged += new System.EventHandler(this.checkBox1_CheckedChanged);
+            // 
             // editar_producto
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(51)))), ((int)(((byte)(12)))), ((int)(((byte)(70)))));
-            this.ClientSize = new System.Drawing.Size(565, 489);
+            this.ClientSize = new System.Drawing.Size(565, 510);
+            this.Controls.Add(this.checkBox1);
             this.Controls.Add(this.guna2Button1);
             this.Controls.Add(this.bunifuLabel3);
             this.Controls.Add(this.guna2ComboBox1);
@@ -526,7 +542,9 @@
             this.Controls.Add(this.bunifuLabel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "editar_producto";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "editar_producto";
+            this.Load += new System.EventHandler(this.editar_producto_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -545,5 +563,6 @@
         private Bunifu.UI.WinForms.BunifuLabel bunifuLabel2;
         private Guna.UI2.WinForms.Guna2DateTimePicker guna2DateTimePicker1;
         private Bunifu.UI.WinForms.BunifuTextBox bunifuTextBox2;
+        private System.Windows.Forms.CheckBox checkBox1;
     }
 }
