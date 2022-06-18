@@ -14,6 +14,7 @@ namespace Presentacion
     public partial class Usuarios : Form
     {
         Users use = new Users();
+
         public Usuarios()
         {
             InitializeComponent();
@@ -30,8 +31,15 @@ namespace Presentacion
             dataGridView1.DataSource = dt;
         }
 
-        //Agregar
-        private void guna2CirclePictureBox1_Click(object sender, EventArgs e)
+        //Buscar
+        private void guna2CirclePictureBox4_Click(object sender, EventArgs e)
+        {
+            DataTable dt = new DataTable();
+            dt = use.Buscar(bunifuTextBox1.Text, guna2ComboBox1.SelectedIndex);
+            dataGridView1.DataSource = dt;
+        }
+
+        private void bunifuImageButton1_Click(object sender, EventArgs e)
         {
             guna2GroupBox1.Enabled = false;
             guna2GroupBox1.Text = "Nuevo usuario";
@@ -44,8 +52,7 @@ namespace Presentacion
             mensaje = use.Agregar();
         }
 
-        //Actualizar
-        private void guna2CirclePictureBox3_Click(object sender, EventArgs e)
+        private void bunifuImageButton2_Click(object sender, EventArgs e)
         {
             guna2GroupBox1.Enabled = false;
             guna2GroupBox1.Text = "Editar usuario";
@@ -56,22 +63,13 @@ namespace Presentacion
             use.Nombre = bunifuTextBox3.Text;
             use.contras = bunifuTextBox2.Text;
 
-            mensaje=use.Editar();
+            mensaje = use.Editar();
         }
 
-        //Eliminar
-        private void guna2CirclePictureBox2_Click(object sender, EventArgs e)
+        private void bunifuImageButton3_Click(object sender, EventArgs e)
         {
             use.id = int.Parse(dataGridView1.CurrentRow.Cells[0].Value.ToString());
             use.Eliminar();
-        }
-
-        //Buscar
-        private void guna2CirclePictureBox4_Click(object sender, EventArgs e)
-        {
-            DataTable dt = new DataTable();
-            dt = use.Buscar(bunifuTextBox1.Text, guna2ComboBox1.SelectedIndex);
-            dataGridView1.DataSource = dt;
         }
     }
 }

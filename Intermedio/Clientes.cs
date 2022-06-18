@@ -95,5 +95,21 @@ namespace Intermedio
             return conex.Ejecutar_Procedimientos_SPC("Buscar_cliente",Lis);
         }
 
+        public void inser_deuda(int id)
+        {
+            List<Parametros> L = new List<Parametros>();
+            L.Add(new Parametros("id_c", ID));
+            L.Add(new Parametros("id_v", id));
+            conex.Ejecutar_Procedimientos_SP("Inser_deudas", L);
+        }
+        public DataTable Listad()
+        {
+            List<Parametros> Lis = new List<Parametros>();
+            Lis.Add(new Parametros("id", ID));
+        
+
+            return conex.Ejecutar_Procedimientos_SPC("Suma_deu", Lis);
+        }
+
     }
 }

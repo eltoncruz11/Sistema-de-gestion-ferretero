@@ -203,7 +203,85 @@ SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
 -- -----------------------------------------------------
 
 
--- -- Usuarios
+-- Usuarios ----------------------------------------------------------------------------------------
+-- -------------------------------------------------------------------------------------------------
+
+-- Agregar
+DELIMITER //
+Create procedure Agregar_usuarios (
+  in Nombr VARCHAR(45),
+  in contrasp VARCHAR(45),
+  OUT Mensaje varchar (80))
+  begin 
+  if (length(Nombr) = 0 or length(contrasp) = 0 )
+  then set Mensaje = "Por favor rellene todos los campos";
+  else 
+  insert into usuarios (Nombre,Pass) values (Nombr,contrasp);
+   set Mensaje = "usuario registrado exitosamente";
+  end if;
+end //
+DELIMITER ;
+
+insert into usuarios (Nombre,Pass) values ("Yader","yaderc99");
+insert into usuarios (Nombre,Pass) values ("Elton","eltonc20");
+-- ----------------------------------------  
+
+-- Mostrar
+DELIMITER //
+Create procedure Mostrar_usuarios ()
+  begin 
+select* from usuarios;
+end //
+DELIMITER ;
+-- ----------------------------------------
+-- Editar
+DELIMITER //
+Create procedure Editar_usuarios (
+  in idp INT,
+    in Nombr VARCHAR(45),
+ in contrasp varchar (45)
+, OUT Mensaje varchar (80))
+BEGIN
+  if (length(Nombr) = 0 or length(contrasp) = 0 )
+  then set Mensaje = "Por favor rellene todos los campos";
+  else 
+  update usuarios set  Nombre = Nombr, Pass = contrasp
+  WHERE id = idp;
+  set Mensaje = "Los datos de actualizaron exitosamente";
+  end if;
+END //
+DELIMITER ;
+-- ----------------------------------------
+-- Eliminar
+DELIMITER //
+Create procedure Eliminar_usuarios (
+in idp varchar(45)
+, out Mensaje varchar(80))
+begin 
+   Delete FROM usuarios where Nombre = idp;
+   set Mensaje = "usuario eliminado con exito";
+end //
+DELIMITER ;
+
+
+-- Buscar
+DELIMITER //
+Create procedure Buscar_usuarios (
+IN dato varchar(50)
+, in ind integer
+)
+begin
+if (ind = 0)
+then select* from usuarios where id like concat('%',dato ,'%');
+else if (ind = 1)
+then select* from usuarios where Nombre like concat('%',dato ,'%');
+else if (ind = 2)
+then select* from usuarios where Pass like concat('%',dato ,'%');
+end if;
+end if;
+end if;
+end //
+DELIMITER ;
 
 DELIMITER //
 Create Procedure Validacion (
@@ -220,8 +298,6 @@ begin
  end if;
 END//
 DELIMITER ;
-
-
 
 -- -- Clientes - ----------------------------------------------------------------------------------------
 DELIMITER //
@@ -449,6 +525,11 @@ end if;
 end //
 DELIMITER ;
 
+/*--------------------------------------------------------------------------*/
+Insert into producto values (1,"Clabo","fkwbfks",20.5,"dygw",0,'NONE',12)
+select *from producto
+/*--------------------------------------------------------------------------*/
+
 DELIMITER //
 Create procedure Editar_producto (
 in Id integer 
@@ -559,11 +640,12 @@ DELIMITER ;
 DELIMITER //
 create procedure Actualizar_des(
 )
+begin
 update descuento set estado = false where Final >= curdate();
 END //
 DELIMITER ;
 
-/*
+
 DELIMITER //
 Create procedure Temp_res (
 in id_p integer)
@@ -571,7 +653,7 @@ begin
 select p.Nombre , datediff(    curdate(), d.Inicio) as tiemp, p.Precio , d.Precio from descuento as d , producto as p where p.idProducto = d.Producto_idProducto and p.idProducto = id_p and d.id in (select max(id) from descuento);
 end //
 DELIMITER ;
-*/
+
 
 DELIMITER //
 Create procedure obtener_est (
@@ -601,7 +683,7 @@ Create procedure Agregar_Proveedor (
   in idProveed INT,
   in Nombr VARCHAR(45),
   in Telefo INT,
-  in Corr NVARCHAR(45),
+  in Corr VARCHAR(45),
   in Dirrec VARCHAR(65),
   out Mensaje varchar(80))
   begin 
@@ -640,7 +722,7 @@ BEGIN
   else 
   update proveedor set  Nombre = Nombr, Telefono = Telefo, Correo = Corr, Direccion = Dirrec
   WHERE idProveedor = idProveed;
-  set Mesaje = "Los datos de actualizaron exitosamente";
+  set Mensaje = "Los datos de actualizaron exitosamente";
   end if;
 END //
 DELIMITER ;
@@ -694,7 +776,7 @@ Create procedure Agregar_compra (
   if (length(Fech) = 0 or length(Total_Mont) = 0 or length(Proveedor_idProveedo) = 0)
   then set Mensaje = "Por favor rellene todos los campos";
   else 
-  insert into compra values (Fech,Total_Mont,Proveedor_idProveedo);
+  insert into compra (Fecha,Total_Monto,Proveedor_idProveedor) values (Fech,Total_Mont,Proveedor_idProveedo);
    set Mensaje = "compra registrado exitosamente";
   end if;
 end //
@@ -750,18 +832,18 @@ Create procedure Agregar_detalle_compra (
   in Compra_idCompr INT,
   in Producto_idProduct INT)
   begin 
-  insert into detalle_compra values (Cantida,Preci,Mont,Compra_idCompr,Producto_idProduct);
+  insert into detalle_compra (Cantidad,Precio,Monto,Compra_idCompra,Producto_idProducto) values (Cantida,Preci,Mont,Compra_idCompr,Producto_idProduct);
   end //
 DELIMITER ;
-
+-- ---------------------------------------------------------------------
 DELIMITER //
-Create procedure Agregar_productos (
+Create procedure List_productos (
   in Nombr VARCHAR(35))
   begin
   select idProducto,Nombre, Precio from producto where Nombre=Nombr;
   end ;
   DELIMITER  //
-  
+-- ----------------------------------------------------------------------
   DELIMITER //
   create procedure mostrar_detalles_por_Compra(
     in Compra_idCompr INT)
@@ -779,7 +861,21 @@ Create procedure Eliminar_detalle_compra (
    set Mensaje = "detalle eliminado con exito";
   end //
 DELIMITER ;
+   
+DELIMITER //
+create procedure Capturar_idVenta_Ct()
+begin
+select max(idVenta) From venta_ct;
+end //
+DELIMITER;
     
+    
+ DELIMITER //
+create procedure Capturar_idVenta_Cd()
+begin
+select max(idVenta_Cd) From venta_cd;
+end //
+DELIMITER;   
 
 -- Ventas ---------------------------------------------------------------------------------------
 -- ----------------------------------------------------------------------------------------------
@@ -794,11 +890,12 @@ Create procedure Agregar_venta_ct (
   if (length(Fech) = 0  or length(Total_Mont) = 0 or length(Ganancia_Tot) = 0)
   then set Mensaje = "Por favor rellene todos los campos";
   else 
-  insert into venta_ct values (Fech,Total_Mont,Ganancia_Tot);
+  insert into venta_ct (Fecha,Total_Monto,Ganancia_Total)values (Fech,Total_Mont,Ganancia_Tot);
    set Mensaje = "venta registrada exitosamente";
   end if;
 end //
 DELIMITER ;
+
 
 DELIMITER //
 Create procedure Agregar_detalle_venta_ct (
@@ -807,9 +904,18 @@ Create procedure Agregar_detalle_venta_ct (
   in Venta_Ct_idVent INT,
   in Producto_idProduct INT)
   begin 
-  insert into venta_ct values (Cantid,Mont,Gananc,Venta_Ct_idVent,Producto_idProduct);
+  insert into detalle_venta_ct(Cantidad,Monto,Venta_Ct_idVenta,Producto_idProducto)values (Cantid,Mont,Venta_Ct_idVent,Producto_idProduct);
 end //
 DELIMITER ;
+
+DELIMITER //
+create procedure Capturar_idVenta_Cd()
+begin
+select max(idVenta_Cd) From venta_cd;
+end //
+DELIMITER;
+
+
 -- ------------------------------------------------------------------------------------------
 -- Agregar
 DELIMITER //
@@ -822,10 +928,14 @@ Create procedure Agregar_venta_cd (
   if (length(Fech) = 0  or length(Total_Mont) = 0 or length(Ganancia_Tot) = 0)
   then set Mensaje = "Por favor rellene todos los campos";
   else 
-  insert into venta_ct values (Fech,Total_Mont,Ganancia_Tot);
+  insert into venta_cd (Fecha,Total_Monto,Ganancia_Total) values (Fech,Total_Mont,Ganancia_Tot);
    set Mensaje = "venta registrada exitosamente";
   end if;
 end //
+DELIMITER ;
+  
+
+  
   
 DELIMITER //
 Create procedure Agregar_detalle_venta_cd (
@@ -834,89 +944,56 @@ Create procedure Agregar_detalle_venta_cd (
   in Venta_Cd_idVenta INT,
   in Producto_idProduct INT)
   begin 
-  insert into venta_ct values (Cantid,Mont,Gananc,Venta_Cd_idVenta,Producto_idProduct);
+  insert into detalle_venta_cd(Cantidad,Monto,Venta_Cd_idVenta_Cd,Producto_idProducto) values (Cantid,Mont,Venta_Cd_idVenta,Producto_idProduct);
 end //
 DELIMITER ;
 
 DELIMITER //
-Create procedure Agregar_productos (
+Create procedure List_productos (
   in Nombr VARCHAR(35))
   begin
-  select idProducto, Precio from producto where Nombre= Nombr;
-  end ;
-  DELIMITER  //
+  select idProducto,Nombre,Precio from producto where Nombre= Nombr;
+  end //
+  DELIMITER;
 
--- Usuarios ----------------------------------------------------------------------------------------
--- -------------------------------------------------------------------------------------------------
 
--- Agregar
+
 DELIMITER //
-Create procedure Agregar_usuarios (
-  in Nombr VARCHAR(45),
-  in contrasp VARCHAR(45),
-  OUT Mensaje varchar (80))
-  begin 
-  if (length(Nombr) = 0 or length(contrasp) = 0 )
-  then set Mensaje = "Por favor rellene todos los campos";
-  else 
-  insert into usuarios values (Nombr,contrasp);
-   set Mensaje = "usuario registrado exitosamente";
-  end if;
-end //
-DELIMITER ;
--- ----------------------------------------  
--- Mostrar
-DELIMITER //
-Create procedure Mostrar_usuarios ()
-  begin 
-select* from usuarios;
-end //
-DELIMITER ;
--- ----------------------------------------
--- Editar
-DELIMITER //
-Create procedure Editar_usuarios (
-  in idp INT,
-    in Nombr VARCHAR(45),
- in contrasp varchar (45)
-, OUT Mensaje varchar (80))
-BEGIN
-  if (length(Nombr) = 0 or length(contrasp) = 0 )
-  then set Mensaje = "Por favor rellene todos los campos";
-  else 
-  update usuarios set  Nombre = Nombr, Pass = contrasp
-  WHERE id = idp;
-  set Mesaje = "Los datos de actualizaron exitosamente";
-  end if;
-END //
-DELIMITER ;
--- ----------------------------------------
--- Eliminar
-DELIMITER //
-Create procedure Eliminar_usuarios (
-in idp varchar(45)
-, out Mensaje varchar(80))
+Create procedure Inser_deudas (
+in id_c nvarchar(17) ,
+in id_v integer )
 begin 
-   Delete FROM usuarios where id = idp;
-   set Mensaje = "usuario eliminado con exito";
+Insert into deuda (Estado,Cliente_idCliente,Venta_Cd_idVenta_Cd) values ("True",id_c,id_v);
 end //
 DELIMITER ;
--- -----------------------------------------
--- Buscar
+
+select* from venta_cd
+
+
+
+
 DELIMITER //
-Create procedure Buscar_usuarios (
-IN dato varchar(50)
-, in ind integer
-)
-begin
-if (ind = 0)
-then select* from usuarios where id like concat('%',dato ,'%');
-else if (ind = 1)
-then select* from usuarios where Nombre like concat('%',dato ,'%');
-else if (ind = 2)
-then select* from usuarios where Pass like concat('%',dato ,'%');
-end if;
-end if;
-end if;
+CREATE procedure dvct (
+in id integer)
+begin 
+select p.Nombre ,p.Precio , d.Cantidad,d.Monto from producto as p, venta_ct as v, detalle_venta_ct as d where p.idProducto = d.Producto_idProducto and v.idVenta = d.Venta_Ct_idVenta and Venta_Ct_idVenta = id ;
+end //
+DELIMITER ;
+
+
+
+DELIMITER //
+CREATE procedure dvcd (
+in id integer)
+begin 
+select p.Nombre ,p.Precio , d.Cantidad,d.Monto from producto as p, venta_cd as v, detalle_venta_cd as d where p.idProducto = d.Producto_idProducto and v.idVenta_Cd = d.Venta_Cd_idVenta_Cd and Venta_Cd_idVenta_Cd = id ;
+end //
+DELIMITER ;
+
+DELIMITER //
+Create procedure Suma_deu (
+in id nvarchar(17))
+begin 
+select sum(v.Total_Monto) as Monto from cliente as c , venta_cd as v, deuda as d where c.idCliente = d.Cliente_idCliente and Venta_Cd_idVenta_Cd = idVenta_Cd and c.idCliente = id;
 end //
 DELIMITER ;

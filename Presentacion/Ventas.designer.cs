@@ -134,7 +134,7 @@
             // 
             this.dataGridView1.AllowUserToAddRows = false;
             this.dataGridView1.AllowUserToDeleteRows = false;
-            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells;
+            this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells;
             this.dataGridView1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(8)))), ((int)(((byte)(53)))));
             this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
@@ -189,7 +189,7 @@
             this.guna2GroupBox2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(8)))), ((int)(((byte)(53)))));
             this.guna2GroupBox2.Font = new System.Drawing.Font("Lucida Bright", 20F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2GroupBox2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(122)))), ((int)(((byte)(171)))), ((int)(((byte)(236)))));
-            this.guna2GroupBox2.Location = new System.Drawing.Point(796, 0);
+            this.guna2GroupBox2.Location = new System.Drawing.Point(797, 0);
             this.guna2GroupBox2.Name = "guna2GroupBox2";
             this.guna2GroupBox2.ShadowDecoration.Parent = this.guna2GroupBox2;
             this.guna2GroupBox2.Size = new System.Drawing.Size(334, 719);
@@ -202,7 +202,7 @@
             this.guna2Panel2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.guna2Panel2.Controls.Add(this.guna2DateTimePicker1);
             this.guna2Panel2.Controls.Add(this.label6);
-            this.guna2Panel2.Location = new System.Drawing.Point(7, 447);
+            this.guna2Panel2.Location = new System.Drawing.Point(7, 368);
             this.guna2Panel2.Name = "guna2Panel2";
             this.guna2Panel2.ShadowDecoration.Parent = this.guna2Panel2;
             this.guna2Panel2.Size = new System.Drawing.Size(327, 74);
@@ -237,12 +237,13 @@
             // 
             // guna2Panel1
             // 
+            this.guna2Panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.guna2Panel1.Controls.Add(this.bunifuButton23);
             this.guna2Panel1.Controls.Add(this.label12);
             this.guna2Panel1.Location = new System.Drawing.Point(7, 369);
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.ShadowDecoration.Parent = this.guna2Panel1;
-            this.guna2Panel1.Size = new System.Drawing.Size(324, 72);
+            this.guna2Panel1.Size = new System.Drawing.Size(324, 0);
             this.guna2Panel1.TabIndex = 10;
             // 
             // bunifuButton23
@@ -420,12 +421,64 @@
             this.guna2ComboBox2.FormattingEnabled = true;
             this.guna2ComboBox2.HoverState.Parent = this.guna2ComboBox2;
             this.guna2ComboBox2.ItemHeight = 30;
+            this.guna2ComboBox2.Items.AddRange(new object[] {
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10",
+            "11",
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19",
+            "20",
+            "21",
+            "22",
+            "23",
+            "24",
+            "25",
+            "26",
+            "27",
+            "28",
+            "29",
+            "30",
+            "31",
+            "32",
+            "33",
+            "34",
+            "35",
+            "36",
+            "37",
+            "38",
+            "39",
+            "40",
+            "41",
+            "42",
+            "43",
+            "44",
+            "45",
+            "46",
+            "47",
+            "48",
+            "49",
+            "50"});
             this.guna2ComboBox2.ItemsAppearance.Parent = this.guna2ComboBox2;
             this.guna2ComboBox2.Location = new System.Drawing.Point(45, 134);
             this.guna2ComboBox2.Name = "guna2ComboBox2";
             this.guna2ComboBox2.ShadowDecoration.Parent = this.guna2ComboBox2;
             this.guna2ComboBox2.Size = new System.Drawing.Size(255, 36);
             this.guna2ComboBox2.TabIndex = 1;
+            this.guna2ComboBox2.SelectedIndexChanged += new System.EventHandler(this.guna2ComboBox2_SelectedIndexChanged);
             // 
             // label5
             // 
@@ -460,6 +513,7 @@
             this.guna2ComboBox3.ShadowDecoration.Parent = this.guna2ComboBox3;
             this.guna2ComboBox3.Size = new System.Drawing.Size(259, 36);
             this.guna2ComboBox3.TabIndex = 3;
+            this.guna2ComboBox3.SelectedIndexChanged += new System.EventHandler(this.guna2ComboBox3_SelectedIndexChanged);
             // 
             // guna2GroupBox4
             // 
@@ -619,7 +673,6 @@
             // 
             this.guna2GroupBox3.BackColor = System.Drawing.Color.Transparent;
             this.guna2GroupBox3.BorderColor = System.Drawing.Color.Transparent;
-            this.guna2GroupBox3.BorderRadius = 8;
             this.guna2GroupBox3.Controls.Add(this.guna2CirclePictureBox4);
             this.guna2GroupBox3.Controls.Add(this.guna2GroupBox2);
             this.guna2GroupBox3.Controls.Add(this.guna2ComboBox4);
@@ -636,7 +689,7 @@
             this.guna2GroupBox3.Location = new System.Drawing.Point(0, 0);
             this.guna2GroupBox3.Name = "guna2GroupBox3";
             this.guna2GroupBox3.ShadowDecoration.Parent = this.guna2GroupBox3;
-            this.guna2GroupBox3.Size = new System.Drawing.Size(1130, 719);
+            this.guna2GroupBox3.Size = new System.Drawing.Size(1131, 719);
             this.guna2GroupBox3.TabIndex = 2;
             this.guna2GroupBox3.Text = "Ventas";
             this.guna2GroupBox3.TextOffset = new System.Drawing.Point(350, 5);
@@ -671,10 +724,16 @@
             this.guna2ComboBox4.HoverState.Parent = this.guna2ComboBox4;
             this.guna2ComboBox4.ItemHeight = 30;
             this.guna2ComboBox4.Items.AddRange(new object[] {
-            "Id",
-            "Nombre",
-            "Apellido",
-            "Direccion"});
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "6",
+            "7",
+            "8",
+            "9",
+            "10"});
             this.guna2ComboBox4.ItemsAppearance.Parent = this.guna2ComboBox4;
             this.guna2ComboBox4.Location = new System.Drawing.Point(487, 63);
             this.guna2ComboBox4.Name = "guna2ComboBox4";
@@ -711,7 +770,7 @@
             this.bunifuTextBox1.IconRight = null;
             this.bunifuTextBox1.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.bunifuTextBox1.Lines = new string[0];
-            this.bunifuTextBox1.Location = new System.Drawing.Point(99, 63);
+            this.bunifuTextBox1.Location = new System.Drawing.Point(99, 60);
             this.bunifuTextBox1.MaxLength = 32767;
             this.bunifuTextBox1.MinimumSize = new System.Drawing.Size(1, 1);
             this.bunifuTextBox1.Modified = false;
@@ -747,7 +806,7 @@
             this.bunifuTextBox1.SelectionLength = 0;
             this.bunifuTextBox1.SelectionStart = 0;
             this.bunifuTextBox1.ShortcutsEnabled = true;
-            this.bunifuTextBox1.Size = new System.Drawing.Size(382, 36);
+            this.bunifuTextBox1.Size = new System.Drawing.Size(382, 49);
             this.bunifuTextBox1.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.bunifuTextBox1.TabIndex = 19;
             this.bunifuTextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -993,6 +1052,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Ventas";
             this.Text = "Ventas";
+            this.Load += new System.EventHandler(this.Ventas_Load);
             this.guna2GroupBox1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.guna2GroupBox2.ResumeLayout(false);
@@ -1030,13 +1090,10 @@
         private System.Windows.Forms.Label label3;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton2 bunifuButton22;
         private Guna.UI2.WinForms.Guna2GroupBox guna2GroupBox4;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox2;
         private System.Windows.Forms.Label label7;
         private Guna.UI2.WinForms.Guna2DateTimePicker guna2DateTimePicker1;
         private System.Windows.Forms.Label label6;
-        private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox3;
         private System.Windows.Forms.Label label5;
-        private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox2;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
@@ -1051,5 +1108,8 @@
         private Guna.UI2.WinForms.Guna2CirclePictureBox guna2CirclePictureBox4;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton2 bunifuButton23;
         public System.Windows.Forms.Label label12;
+        public Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox3;
+        public Guna.UI2.WinForms.Guna2TextBox guna2TextBox2;
+        public Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox2;
     }
 }

@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Enlace_datos;
 using System.Data;
+using MySql.Data.MySqlClient;
 
 namespace Intermedio
 {
@@ -26,10 +27,11 @@ namespace Intermedio
             List<Parametros> Lista = new List<Parametros>();
             Lista.Add(new Parametros("Nombr", Nombre));
             Lista.Add(new Parametros("contras", contras));
+            Lista.Add(new Parametros("Mensaje", "", MySqlDbType.VarChar, 80));
 
             conex.Ejecutar_Procedimientos_SP("Agregar_usuarios", Lista);
 
-            return Lista[3].Valor.ToString();
+            return Lista[2].Valor.ToString();
         }
 
         public String Editar()
@@ -38,18 +40,22 @@ namespace Intermedio
             Lista.Add(new Parametros("idp", id));
             Lista.Add(new Parametros("Nombr", Nombre));
             Lista.Add(new Parametros("contras", contras));
+            Lista.Add(new Parametros("Mensaje", "", MySqlDbType.VarChar, 80));
 
             conex.Ejecutar_Procedimientos_SP("Editar_usuarios", Lista);
 
             return Lista[3].Valor.ToString();
         }
 
-        public void Eliminar()
+        public String Eliminar()
         {
             List<Parametros> Lista = new List<Parametros>();
             Lista.Add(new Parametros("idp", id));
+            Lista.Add(new Parametros("Mensaje", "", MySqlDbType.VarChar, 80));
+
             conex.Ejecutar_Procedimientos_SP("Eliminar_usuarios", Lista);
 
+            return Lista[2].Valor.ToString();
         }
 
         public DataTable Buscar(string dato, int ind)
@@ -59,6 +65,20 @@ namespace Intermedio
             Lista.Add(new Parametros("ind", ind));
 
             return conex.Ejecutar_Procedimientos_SPC("Buscar_usuarios", Lista);
+        }
+
+        public String Verificaion()
+        {
+
+            List<Parametros> Lista = new List<Parametros>();
+            Lista.Add(new Parametros("idp", Nombre));
+            Lista.Add(new Parametros("contrasp", contras));
+            Lista.Add(new Parametros("Mensaje", "", MySqlDbType.VarChar, 80));
+
+            conex.Ejecutar_Procedimientos_SP("Validacion",Lista);
+
+            return Lista[2].Valor.ToString();
+            
         }
 
     }

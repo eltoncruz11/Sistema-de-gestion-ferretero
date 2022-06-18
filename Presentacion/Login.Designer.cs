@@ -84,6 +84,7 @@
             this.bunifuPictureBox3.TabIndex = 11;
             this.bunifuPictureBox3.TabStop = false;
             this.bunifuPictureBox3.Type = Bunifu.UI.WinForms.BunifuPictureBox.Types.Circle;
+            this.bunifuPictureBox3.Click += new System.EventHandler(this.bunifuPictureBox3_Click);
             // 
             // bunifuIconButton1
             // 
@@ -147,6 +148,7 @@
             this.guna2Button1.Size = new System.Drawing.Size(356, 45);
             this.guna2Button1.TabIndex = 18;
             this.guna2Button1.Text = "Iniciar Sesión";
+            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
             // bunifuButton21
             // 
@@ -254,6 +256,7 @@
             this.bunifuLabel1.Text = "Olvido su Contraseña";
             this.bunifuLabel1.TextAlignment = System.Drawing.ContentAlignment.TopLeft;
             this.bunifuLabel1.TextFormat = Bunifu.UI.WinForms.BunifuLabel.TextFormattingOptions.Default;
+            this.bunifuLabel1.Click += new System.EventHandler(this.bunifuLabel1_Click);
             // 
             // guna2TextBox1
             // 
@@ -274,7 +277,7 @@
             this.guna2TextBox1.Margin = new System.Windows.Forms.Padding(4);
             this.guna2TextBox1.Name = "guna2TextBox1";
             this.guna2TextBox1.PasswordChar = '\0';
-            this.guna2TextBox1.PlaceholderText = "";
+            this.guna2TextBox1.PlaceholderText = "Ingrese su nombre de usuario";
             this.guna2TextBox1.SelectedText = "";
             this.guna2TextBox1.ShadowDecoration.Parent = this.guna2TextBox1;
             this.guna2TextBox1.Size = new System.Drawing.Size(469, 41);
@@ -298,8 +301,9 @@
             this.guna2TextBox2.Location = new System.Drawing.Point(66, 404);
             this.guna2TextBox2.Margin = new System.Windows.Forms.Padding(4);
             this.guna2TextBox2.Name = "guna2TextBox2";
-            this.guna2TextBox2.PasswordChar = '\0';
-            this.guna2TextBox2.PlaceholderText = "";
+            this.guna2TextBox2.PasswordChar = '*';
+            this.guna2TextBox2.PlaceholderForeColor = System.Drawing.Color.Gray;
+            this.guna2TextBox2.PlaceholderText = "Ingrese su contraseña";
             this.guna2TextBox2.SelectedText = "";
             this.guna2TextBox2.ShadowDecoration.Parent = this.guna2TextBox2;
             this.guna2TextBox2.Size = new System.Drawing.Size(469, 41);

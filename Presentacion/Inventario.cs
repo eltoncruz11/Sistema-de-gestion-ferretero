@@ -68,13 +68,19 @@ namespace Presentacion
 
         }
 
-        private void guna2CirclePictureBox1_Click(object sender, EventArgs e)
+        private void pictureBox4_Click(object sender, EventArgs e)
         {
-           agregar_producto agre = new agregar_producto(this);
+            DataTable R = inv.Buscar(bunifuTextBox1.Text, guna2ComboBox1.SelectedIndex);
+            dataGridView1.DataSource = R;
+        }
+
+        private void bunifuImageButton1_Click(object sender, EventArgs e)
+        {
+            agregar_producto agre = new agregar_producto(this);
             agre.ShowDialog();
         }
 
-        private void guna2CirclePictureBox2_Click(object sender, EventArgs e)
+        private void bunifuImageButton2_Click(object sender, EventArgs e)
         {
             DialogResult R;
 
@@ -89,31 +95,25 @@ namespace Presentacion
             }
         }
 
-        private void guna2CirclePictureBox3_Click(object sender, EventArgs e)
+        private void bunifuImageButton3_Click(object sender, EventArgs e)
         {
             editar_producto ed = new editar_producto(this);
             ed.ShowDialog();
         }
 
-        private void guna2CirclePictureBox6_Click(object sender, EventArgs e)
+        private void bunifuImageButton4_Click(object sender, EventArgs e)
         {
             Info_Producto inf = new Info_Producto(this);
             inf.ShowDialog();
         }
 
-        private void guna2CirclePictureBox5_Click(object sender, EventArgs e)
+        private void bunifuImageButton5_Click(object sender, EventArgs e)
         {
             Categoria cat = new Categoria();
             cat.ShowDialog();
         }
 
-        private void pictureBox4_Click(object sender, EventArgs e)
-        {
-            DataTable R = inv.Buscar(bunifuTextBox1.Text, guna2ComboBox1.SelectedIndex);
-            dataGridView1.DataSource = R;
-        }
-
-        private void guna2CirclePictureBox4_Click(object sender, EventArgs e)
+        private void bunifuImageButton6_Click(object sender, EventArgs e)
         {
             int id = Convert.ToInt32(dataGridView1.CurrentRow.Cells[0].Value.ToString());
             int pre = Convert.ToInt32(dataGridView1.CurrentRow.Cells[2].Value.ToString());

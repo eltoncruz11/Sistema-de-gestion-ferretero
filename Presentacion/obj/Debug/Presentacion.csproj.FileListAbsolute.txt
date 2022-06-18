@@ -512,3 +512,4 @@ D:\Escritorio\Sistema-de-gestion-ferretero\Presentacion\bin\Debug\ru\Microsoft.R
 D:\Escritorio\Sistema-de-gestion-ferretero\Presentacion\bin\Debug\zh-CHS\Microsoft.ReportViewer.WinForms.resources.dll
 D:\Escritorio\Sistema-de-gestion-ferretero\Presentacion\bin\Debug\zh-CHT\Microsoft.ReportViewer.WinForms.resources.dll
 D:\Escritorio\Sistema-de-gestion-ferretero\Presentacion\obj\Debug\Presentacion.csproj.CopyComplete
+D:\Escritorio\Sistema-de-gestion-ferretero\Presentacion\obj\Debug\Presentacion.Fac_lis.resources

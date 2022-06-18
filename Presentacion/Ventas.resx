@@ -148,16 +148,17 @@
   </data>
   <data name="bunifuTextBox1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAAX4AAAAkCAYAAACOuFHZAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHhSURBVHhe7dqxaxNRAMfxGzuptcmLDqKjo4tQ0H9BcctU
-        EKcODkUEXYQ6dXEMDsXByQ4il6ggTjr5Dzh07OYquBSXe95LXpSS8w+4vM8PPkNz99ZvLkcrMzOzaljH
-        G6M63h/N4j4A/ROmzW6YNds56/9fuqm9+bg9FAFYB83P9CCfM392KfrLG8OrH3H47Gsc7BwC0EPDJ59j
-        eHny9wsg1M1ezv1iV7/EjTb8J+liCv7muVtxc+MmAD23dedgEf5pc9o++V/L2f/3tJ+e9EUfYL2E59+W
-        8d/N2W/D3/4ESB8OHn3oPARAfw3Gk+Urn/2c/apKf8zDv3PYeQiA/kptF36Aggg/QGGEH6Awwg9QGOEH
-        KIzwAxRG+AEKI/wAhRF+gMIIP0BhhB+gMMIPUBjhByiM8AMURvgBCiP8AIURfoDCCD9AYYQfoDDCD1AY
-        4QcoTHf4p/HpPPy7bzoPAdBfg/FkNfyhjvfSh+HF985DAPTX8OG7efhD3ezl7FfV8GO8FKbNabqwdftx
-        50EA+ufilbsxvP29CP+s2c7ZX2z5uidJ3w7pnRAAPTWexMGD13F09KvJ0T/KuT+79sLBMv4ArIlp8+l8
-        HS/k1K/u8vt4vb0x/ZcPAD238nrHzMxKW1X9AeBGn7YwLaXpAAAAAElFTkSuQmCC
+        iVBORw0KGgoAAAANSUhEUgAAAX4AAAAxCAYAAADdo8LxAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
+        YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAISSURBVHhe7doxaxNhHMfxGzuptclFB9HR0UUo6FtQ3DIV
+        xKmDQxFBF6FOXRyDQ3FwsoPIJSqIk06+AYeO3VwFl+Jyj/ckF6XkfAGX/+cHn6G5e9ZvLkcLMzOzYlil
+        G6Mq3R/N0j4A/VNO691yVm+3Wf//8k3NzcfNoQTAOqh/5gf5NvNnl6O/vLF89SMNn31Ng51DAHpo+ORz
+        Kl+e/P0CKKt6r839Yle/pI0m/Cf5Yg7+5rlbaXPjJgA9t3XnYBH+aX3aPPlfa7P/72k/P+mLPsB6KZ9/
+        W8Z/t81+E/7mJ0D+cPDoQ+chAPprMJ4sX/nst9kvivzHPPw7h52HAOiv3HbhBwhE+AGCEX6AYIQfIBjh
+        BwhG+AGCEX6AYIQfIBjhBwhG+AGCEX6AYIQfIBjhBwhG+AGCEX6AYIQfIBjhBwhG+AGCEX6AYIQfIBjh
+        BwhG+AGCEX6AYIQfIBjhBwhG+AGCEX6AYIQfIBjhBwhG+AGCEX6AYIQfIBjhBwhG+AGC6Q7/ND2dh3/3
+        TechAPprMJ6shr+s0r38Yfnie+chAPpr+PDdPPxlVe+12S+K4cd0qZzWp/nC1u3HnQcB6J+LV+6m8u3v
+        Rfhn9Xab/cWWr3uy/O2Q3wkB0FPjSRo8eJ1GR7/qNvpHbe7PrrlwsIw/AGtiWn86X6ULbepXd/l9ut7c
+        mP/LB4CeW3m9Y2Zm0VYUfwCfIg34pArT6AAAAABJRU5ErkJggg==
 </value>
   </data>
   <data name="bunifuButton21.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">

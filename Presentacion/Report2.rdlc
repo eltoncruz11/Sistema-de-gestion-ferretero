@@ -9,7 +9,7 @@
               <Width>2.0458cm</Width>
             </TablixColumn>
             <TablixColumn>
-              <Width>3.36872cm</Width>
+              <Width>5.06205cm</Width>
             </TablixColumn>
             <TablixColumn>
               <Width>4.5858cm</Width>
@@ -332,8 +332,8 @@
         <DataSetName>DataSet1</DataSetName>
         <Top>3.01308cm</Top>
         <Left>6.55943cm</Left>
-        <Height>1.59688cm</Height>
-        <Width>14.92125cm</Width>
+        <Height>1.59687cm</Height>
+        <Width>16.61459cm</Width>
         <Style>
           <Border>
             <Style>None</Style>

@@ -54,6 +54,12 @@ namespace Intermedio
 
             return conex.Ejecutar_Procedimientos_SPC("Buscar_compra", Lista);
         }
+
+        public DataTable IDC()
+        {
+            return conex.Ejecutar_Procedimientos_SPC("Capturar_idcompra", null);
+        }
+
         #endregion
 
         #region Metodo de detalles de compra
@@ -70,7 +76,7 @@ namespace Intermedio
             List<Parametros> lista = new List<Parametros>();
             lista.Add(new Parametros("Nombr", Nombre));
 
-            return conex.Ejecutar_Procedimientos_SPC("Agregar_productos", lista);
+            return conex.Ejecutar_Procedimientos_SPC("List_productos", lista);
 
         }
 

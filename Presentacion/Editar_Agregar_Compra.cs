@@ -21,11 +21,12 @@ namespace Presentacion
             InitializeComponent();
         }
 
-        public void Listar_detalles_C()
-        {
-            DataTable dt = Comp.Mostrar_detalles_C();
-            dataGridView1.DataSource = dt;
-        }
+        //public void Listar_detalles_C()
+        //{
+        //    Comp.idCompra = 
+        //    DataTable dt = Comp.Mostrar_detalles_C();
+        //    dataGridView1.DataSource = dt;
+        //}
 
         //Variables para validar los click de cada boton
         public Boolean Agregar = false;
@@ -34,15 +35,16 @@ namespace Presentacion
         private void guna2CirclePictureBox4_Click(object sender, EventArgs e)
         {
             Datos_prod();
+            lista_Cal();
         }
 
         private void bunifuButton21_Click(object sender, EventArgs e)
         {
-            dataGridView1.Rows.Add(Datos_prod());
+            dataGridView1.DataSource = dt;
+
 
             label10.Text = Convert.ToString(sumaTotal);
 
-            lista_Cal();
         }
 
         //Agregar / Actualizar
@@ -63,11 +65,10 @@ namespace Presentacion
                 {
                     for (int i = 0; i < dataGridView1.Rows.Count; i++)
                     {
-                        Comp.Cantidad = Int32.Parse(Lista_Detalle_Compra.Rows[i][1].ToString());
-                        Comp.Precio = double.Parse(Lista_Detalle_Compra.Rows[i][0].ToString());
-                        Comp.Monto = double.Parse(Lista_Detalle_Compra.Rows[i][2].ToString());
-                        Comp.Compra_idCompra = Int32.Parse(guna2TextBox1.Text);
-                        Comp.Producto_idProducto = Int32.Parse(Datos_prod().Rows[0][0].ToString());
+                        Comp.Cantidad = Int32.Parse(Lista_C.Rows[i][1].ToString());
+                        Comp.Precio = double.Parse(Lista_C.Rows[i][0].ToString());
+                        Comp.Monto = double.Parse(Lista_C.Rows[i][2].ToString());
+                        Comp.Producto_idProducto = Int32.Parse(dt.Rows[0][0].ToString());
 
                         Comp.Agregar_DC();
 
@@ -81,32 +82,42 @@ namespace Presentacion
 
         }
 
+        DataTable dt = new DataTable();
 
         public DataTable Datos_prod()
         {
             Comp.Nombre = bunifuTextBox1.Text;
-            DataTable dt = new DataTable();
             dt = Comp.Extraer_datos();
 
             return dt;
         }
 
-        DataTable Lista_Detalle_Compra = new DataTable();
+
+        DataTable Lista_C = new DataTable();
+
+
         double sumaTotal = 0;
-        private DataTable lista_Cal()
+        private void lista_Cal()
         {
-            double precio_venta = double.Parse(Datos_prod().Rows[0][2].ToString());
+            double precio_venta = double.Parse(dt.Rows[0][2].ToString());
             double precio_compra = precio_venta - (precio_venta * 0.15);
             int cantidad = int.Parse(guna2ComboBox1.Text);
 
-            double Mont = cantidad * precio_compra;
+            double Mont = 0;
+
+            Mont = cantidad * precio_compra;
+
             sumaTotal = sumaTotal + Mont;
 
-            Lista_Detalle_Compra.Rows.Add(precio_compra,cantidad,Mont);
-
-           return Lista_Detalle_Compra;
+            Lista_C.Rows.Add(precio_compra,cantidad,Mont);
         }
 
-        
+        private void Editar_Agregar_Compra_Load(object sender, EventArgs e)
+        {
+            //Listar_detalles_C();
+            Lista_C.Columns.Add("precio", typeof(Double));
+            Lista_C.Columns.Add("Cantidad", typeof(Int32));
+            Lista_C.Columns.Add("Monto", typeof(Double));
+        }
     }
 }

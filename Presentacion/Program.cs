@@ -11,12 +11,18 @@ namespace Presentacion
         /// <summary>
         /// Punto de entrada principal para la aplicación.
         /// </summary>
+        /// 
+        /// instancia creada para poder ocultar el formulario inicio despues de su carga
+        //public static Login Frm;
+
         [STAThread]
         static void Main()
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Inventario());
+
+            //asignando el accarque de la aplicacion al la intancia Frm
+            Application.Run(new Contenedor());
         }
     }
 }

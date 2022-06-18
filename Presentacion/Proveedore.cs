@@ -40,28 +40,23 @@ namespace Presentacion
 
         //Instancia para acceder a los componentes del formulario
         Editar_Agregar_Proveedor P = new Editar_Agregar_Proveedor();
+        #endregion
 
-        //llamar formulario Agregar
-        private void guna2CirclePictureBox1_Click(object sender, EventArgs e)
+        private void guna2CirclePictureBox4_Click(object sender, EventArgs e)
         {
-            
+            DataTable dt = new DataTable();
+            dt = Prov.Buscar(bunifuTextBox1.Text, guna2ComboBox1.SelectedIndex);
+            dataGridView1.DataSource = dt;
+        }
+
+        private void bunifuImageButton1_Click(object sender, EventArgs e)
+        {
             P.guna2GradientButton1.Text = "Agregar";
 
             P.Show();
-
         }
 
-        //llamar formulario Actulizar
-        private void guna2CirclePictureBox3_Click(object sender, EventArgs e)
-        {
-            P.guna2GradientButton1.Text = "Actualizar";
-            P.guna2TextBox1.Text = dataGridView1.CurrentRow.Cells[0].Value.ToString();
-            P.Show();
-
-        }
-
-        //Eliminar
-        private void guna2CirclePictureBox2_Click(object sender, EventArgs e)
+        private void bunifuImageButton2_Click(object sender, EventArgs e)
         {
             String Mensaje = "";
             Prov.idProveedor = int.Parse(dataGridView1.CurrentRow.Cells[0].Value.ToString());
@@ -73,13 +68,13 @@ namespace Presentacion
 
             }
         }
-        #endregion
 
-        private void guna2CirclePictureBox4_Click(object sender, EventArgs e)
+        private void bunifuImageButton3_Click(object sender, EventArgs e)
         {
-            DataTable dt = new DataTable();
-            dt = Prov.Buscar(bunifuTextBox1.Text, guna2ComboBox1.SelectedIndex);
-            dataGridView1.DataSource = dt;
+            P.guna2GradientButton1.Text = "Actualizar";
+            P.guna2TextBox1.Text = dataGridView1.CurrentRow.Cells[0].Value.ToString();
+            P.Show();
+
         }
     }
 }

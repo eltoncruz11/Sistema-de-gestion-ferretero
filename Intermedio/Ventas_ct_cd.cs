@@ -5,6 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using Enlace_datos;
 using System.Data;
+using MySql.Data.MySqlClient;
+
 
 namespace Intermedio
 {
@@ -24,9 +26,11 @@ namespace Intermedio
             lista.Add(new Parametros("Fech", Fecha));
             lista.Add(new Parametros("Total_Mont", Total_Monto));
             lista.Add(new Parametros("Ganancia_Tot", Ganancia_Total));
-            conex.Ejecutar_Procedimientos_SP("Agregar_venta_ct", lista);
+            lista.Add(new Parametros("Mensaje", "", MySqlDbType.VarChar, 80));
 
-            return lista[4].Valor.ToString();
+            conex.Ejecutar_Procedimientos_SP("Agregar_venta_cd", lista);
+
+            return lista[3].Valor.ToString();
         }
 
         public String Agregar_ct()
@@ -35,9 +39,11 @@ namespace Intermedio
             lista.Add(new Parametros("Fech", Fecha));
             lista.Add(new Parametros("Total_Mont", Total_Monto));
             lista.Add(new Parametros("Ganancia_Tot", Ganancia_Total));
+            lista.Add(new Parametros("Mensaje", "", MySqlDbType.VarChar, 80));
+
             conex.Ejecutar_Procedimientos_SP("Agregar_venta_ct", lista);
 
-            return lista[4].Valor.ToString();
+            return lista[3].Valor.ToString();
         }
         #endregion
 
@@ -54,9 +60,9 @@ namespace Intermedio
         public void Agregar_D_ct()
         {
             List<Parametros> Lista = new List<Parametros>();
-            Lista.Add(new Parametros("Cantida", Cantidad));
+            Lista.Add(new Parametros("Cantid", Cantidad));
             Lista.Add(new Parametros("Mont", Monto));
-            Lista.Add(new Parametros("Venta_Cd_idVenta", Venta_Cd_idVentas));
+            Lista.Add(new Parametros("Venta_Ct_idVent", Venta_Cd_idVentas));
             Lista.Add(new Parametros("Producto_idProduct", Producto_idProducto));
             conex.Ejecutar_Procedimientos_SP("Agregar_detalle_venta_ct", Lista);
         }
@@ -64,7 +70,7 @@ namespace Intermedio
         public void Agregar_D_cd()
         {
             List<Parametros> Lista = new List<Parametros>();
-            Lista.Add(new Parametros("Cantida", Cantidad));
+            Lista.Add(new Parametros("Cantid", Cantidad));
             Lista.Add(new Parametros("Mont", Monto));
             Lista.Add(new Parametros("Venta_Cd_idVenta", Venta_Cd_idVentas));
             Lista.Add(new Parametros("Producto_idProduct", Producto_idProducto));
@@ -76,10 +82,26 @@ namespace Intermedio
             List<Parametros> lista = new List<Parametros>();
             lista.Add(new Parametros("Nombr", Nombre));
 
-            return conex.Ejecutar_Procedimientos_SPC("Agregar_productos", lista);
+            return conex.Ejecutar_Procedimientos_SPC("List_productos", lista);
 
         }
 
+        public DataTable ID_V_CD()
+        {
+            return conex.Ejecutar_Procedimientos_SPC("Capturar_idVenta_Cd", null);
+        }
+
+        public DataTable ID_V_CT()
+        {
+            return conex.Ejecutar_Procedimientos_SPC("Capturar_idVenta_Ct", null);
+        }
+
+        public DataTable DETALLECT(int R)
+        {
+            List<Parametros> L = new List<Parametros>();
+            L.Add(new Parametros("id", R));
+            return conex.Ejecutar_Procedimientos_SPC("dvct", L);
+        }
         #endregion
 
     }
